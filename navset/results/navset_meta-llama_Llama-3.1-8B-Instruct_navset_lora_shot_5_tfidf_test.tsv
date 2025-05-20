@@ -1,0 +1,633 @@
+text	label	facts	output
+The trawler E is progressing through the waters. The catamaran D is drawing close from the right side. It is maneuvering with sail power.	D	"starboard(D,E)
+engine(E)
+sail(D)"	"
+starboard(D,E)
+sail(D)
+restricted(D)"
+The fishing boat C is advancing on the water. The trawler H is closing in from the left side. It is restricted in its maneuverability.	H	"port(H,C)
+engine(C)
+restricted(H)"	"
+starboard(H,C)
+restricted(H)
+sail(C)
+engine(H)"
+The trawler E is navigating through the waters. The catamaran H is drawing close from the right side. It is maneuvering with sail power.	H	"starboard(H,E)
+engine(E)
+sail(H)"	"
+starboard(H,E)
+sail(H)
+engine(E)
+restricted(H)"
+The sailboat G is progressing through the waters. It runs on engine power. The sailboat H is drawing close to the left flank. It is maneuvering with sail power.	H	"port(H,G)
+engine(G)
+sail(H)"	"
+port(H,G)
+engine(G)
+sail(H)"
+The yacht A is making its way toward its course. The catamaran G is closing in from the right side. It is sailing, not engine-driven.	G	"starboard(G,A)
+engine(A)
+sail(G)"	"
+starboard(G,A)
+sail(G)
+engine(A)"
+The container ship C is navigating through the waters. The sailboat H is approaching to the right flank. It is under sail.	H	"starboard(H,C)
+engine(C)
+sail(H)"	"
+starboard(H,C)
+sail(H)
+engine(C)"
+The catamaran A is heading toward its destination. It is under sail. It can not change course while conducting its activities. The yacht H is drawing close from the port side.	A	"port(H,A)
+restricted(A)
+engine(H)"	"
+port(H,A)
+engine(H)
+sail(A)
+restricted(A)"
+The yacht B is making its way toward its course. The yacht D is closing in to the right flank.	D	"starboard(D,B)
+engine(B)
+engine(D)"	"
+starboard(E,F)
+engine(F)
+engine(E)"
+The oil tanker D is making its way toward its course. The fishing boat G is approaching from the right side.	G	"starboard(G,D)
+engine(D)
+engine(G)"	"
+starboard(G,D)
+engine(D)
+engine(G)"
+The catamaran C is making its way toward its course. It is power-driven. It can not change course while conducting its activities. The container ship A is coming up to the right flank.	C	"starboard(A,C)
+restricted(C)
+engine(A)"	"
+starboard(A,C)
+engine(C)
+engine(A)
+restricted(C)"
+The yacht C is heading toward its destination. The yacht F is drawing close from the starboard side.	F	"starboard(F,C)
+engine(C)
+engine(F)"	"
+starboard(D,G)
+sail(G)
+engine(D)"
+The yacht D is progressing through the waters. It can not change course while conducting its activities. The ferry B is closing in to the left flank. It is unable to alter its course due to ongoing operations.	0	"port(B,D)
+restricted(D)
+restricted(B)"	"
+port(B,D)
+engine(D)
+engine(B)
+restricted(D)
+restricted(B)"
+The container ship H is making its way toward its course. The ferry A is closing in from the left side. It is unable to alter its course due to ongoing operations.	A	"port(A,H)
+engine(H)
+restricted(A)"	"
+port(A,H)
+engine(H)
+engine(A)
+restricted(A)"
+The yacht E is progressing through the waters. The trawler B is closing in to the right flank.	B	"starboard(B,E)
+engine(E)
+engine(B)"	"
+starboard(B,E)
+engine(E)
+engine(B)"
+The fishing boat G is navigating through the waters. The sailboat E is coming up to the left flank. It operates using engines.	G	"port(E,G)
+engine(G)
+engine(E)"	"
+port(E,G)
+engine(G)
+engine(E)"
+The trawler A is navigating through the waters. It is restricted in its maneuverability. The container ship F is closing in to the right flank.	A	"starboard(F,A)
+restricted(A)
+engine(F)"	"
+starboard(F,A)
+restricted(A)
+engine(A)
+engine(F)"
+The sailboat D is heading toward its destination. It is power-driven. The trawler G is drawing close to the left flank. It can not change course while conducting its activities.	G	"port(G,D)
+engine(D)
+restricted(G)"	"
+Facts:
+port(G,D)
+engine(D)
+restricted(G)
+not starboard(D,G)"
+The container ship F is heading toward its destination. The oil tanker C is coming up to the left flank.	F	"port(C,F)
+engine(F)
+engine(C)"	"
+port(C,F)
+engine(F)
+engine(C)"
+The fishing boat C is navigating through the waters. It can not change course while conducting its activities. The sailboat F is moving forward from the left side. It runs on engine power. It is unable to alter its course due to ongoing operations.	0	"port(F,C)
+restricted(C)
+restricted(F)"	"
+starboard(F,C)
+engine(F)
+restricted(C)"
+The sailboat B is progressing through the waters. It is sailing, not engine-driven. The oil tanker C is drawing close to the right flank.	B	"starboard(C,B)
+sail(B)
+engine(C)"	"
+sail(B)
+starboard(C,B)
+port(B,C)"
+The sailboat B is progressing through the waters. It is under sail. The container ship D is moving forward from the port side. It is unable to alter its course due to ongoing operations.	D	"port(D,B)
+sail(B)
+restricted(D)"	"
+sail(B)
+port(D,B)
+engine(B)
+engine(D)
+restricted(D)"
+The yacht F is advancing on the water. The fishing boat D is approaching head-on.	0	"head-on(D,F)
+engine(F)
+engine(D)"	"
+head-on(D,F)
+engine(D)
+engine(F)"
+The fishing boat B is progressing through the waters. The trawler G is closing in from the port side.	B	"port(G,B)
+engine(B)
+engine(G)"	"
+port(G,B)
+starboard(G,B)
+engine(B)
+engine(G)"
+The container ship E is progressing through the waters. The oil tanker A is drawing close head-on.	0	"head-on(A,E)
+engine(E)
+engine(A)"	"
+head-on(A,E)
+engine(E)
+engine(A)"
+The catamaran F is navigating through the waters. It is sailing, not engine-driven. The yacht E is drawing close from the right side.	F	"starboard(E,F)
+sail(F)
+engine(E)"	"
+Facts:
+starboard(E,F)
+port(F,E)
+head-on(E,F)
+sail(F)
+engine(E)"
+The yacht E is advancing on the water. The sailboat B is closing in from the right side. It runs on engine power.	B	"starboard(B,E)
+engine(E)
+engine(B)"	"
+starboard(B,E)
+engine(B)
+engine(E)"
+The sailboat F is advancing on the water. It is under sail. The yacht C is drawing close from the port side.	F	"port(C,F)
+sail(F)
+engine(C)"	"
+starboard(F,C)
+sail(F)"
+The container ship A is making its way toward its course. The fishing boat C is moving forward from the starboard side.	C	"starboard(C,A)
+engine(A)
+engine(C)"	"
+starboard(C,A)
+engine(A)
+engine(C)"
+The fishing boat D is heading toward its destination. The sailboat H is drawing close to the right flank. It is maneuvering with sail power. It is restricted in its maneuverability.	H	"starboard(H,D)
+engine(D)
+restricted(H)"	"
+starboard(H,D)
+sail(H)
+restricted(H)
+engine(D)"
+The ferry E is heading toward its destination. The oil tanker G is approaching from the starboard side.	G	"starboard(G,E)
+engine(E)
+engine(G)"	"
+starboard(G,E)
+engine(E)
+engine(G)"
+The fishing boat F is advancing on the water. The ferry C is approaching from the starboard side.	C	"starboard(C,F)
+engine(F)
+engine(C)"	"
+starboard(C,F)
+engine(F)
+engine(C)"
+The oil tanker B is progressing through the waters. The catamaran H is coming up head-on. It is maneuvering with sail power.	H	"head-on(H,B)
+engine(B)
+sail(H)"	"
+head-on(H,B)
+sail(H)
+engine(B)"
+The fishing boat A is navigating through the waters. The trawler E is approaching from the port side.	A	"port(E,A)
+engine(A)
+engine(E)"	"
+port(E,A)
+engine(A)
+engine(E)"
+The yacht B is progressing through the waters. The catamaran A is approaching from the left side. It is maneuvering with sail power.	A	"port(A,B)
+engine(B)
+sail(A)"	"
+port(A,B)
+sail(A)
+engine(B)"
+The ferry E is navigating through the waters. The sailboat D is moving forward head-on. It operates using engines.	0	"head-on(D,E)
+engine(E)
+engine(D)"	"
+head-on(D,E)
+engine(D)
+engine(E)"
+The yacht B is advancing on the water. The fishing boat E is closing in from the starboard side.	E	"starboard(E,B)
+engine(B)
+engine(E)"	"
+starboard(E,B)
+engine(B)
+engine(E)"
+The catamaran G is progressing through the waters. It is sailing, not engine-driven. It can not change course while conducting its activities. The oil tanker C is closing in from the left side.	G	"port(C,G)
+restricted(G)
+engine(C)"	"
+port(C,G)
+sail(G)
+restricted(G)
+engine(C)"
+The catamaran B is advancing on the water. It is sailing, not engine-driven. The oil tanker A is closing in from the port side.	B	"port(A,B)
+sail(B)
+engine(A)"	"
+port(A,B)
+engine(A)
+sail(B)"
+The container ship F is advancing on the water. The yacht C is closing in to the right flank. It is unable to alter its course due to ongoing operations.	C	"starboard(C,F)
+engine(F)
+restricted(C)"	"
+starboard(C,F)
+engine(F)
+engine(C)
+restricted(C)"
+The trawler F is advancing on the water. The fishing boat B is closing in from the starboard side.	B	"starboard(B,F)
+engine(F)
+engine(B)"	"
+starboard(B,F)
+engine(F)
+engine(B)"
+The sailboat B is making its way toward its course. It is maneuvering with sail power. The fishing boat H is closing in to the right flank.	B	"starboard(H,B)
+sail(B)
+engine(H)"	"
+starboard(H,B)
+sail(B)
+engine(H)"
+The container ship E is advancing on the water. The ferry C is coming up from the left side.	E	"port(C,E)
+engine(E)
+engine(C)"	"
+Facts:
+port(C,E)
+engine(E)
+engine(C)"
+The ferry C is navigating through the waters. The yacht A is drawing close to the left flank.	C	"port(A,C)
+engine(C)
+engine(A)"	"
+port(A,C)
+engine(C)
+engine(A)"
+The fishing boat G is progressing through the waters. The catamaran C is drawing close from the left side. It operates using engines.	G	"port(C,G)
+engine(G)
+engine(C)"	"
+port(C,G)
+engine(G)
+engine(C)"
+The oil tanker A is heading toward its destination. The ferry H is moving forward from the port side. It can not change course while conducting its activities.	H	"port(H,A)
+engine(A)
+restricted(H)"	"
+port(H,A)
+engine(A)
+engine(H)
+restricted(H)"
+The yacht H is navigating through the waters. The catamaran D is coming up from the starboard side. It is maneuvering with sail power.	D	"starboard(D,H)
+engine(H)
+sail(D)"	"
+starboard(D,H)
+engine(H)
+sail(D)"
+The yacht B is making its way toward its course. The catamaran F is coming up from the port side. It runs on engine power.	B	"port(F,B)
+engine(B)
+engine(F)"	"
+starboard(D,B)
+engine(B)
+engine(D)"
+The container ship A is heading toward its destination. It can not change course while conducting its activities. The trawler C is drawing close to the right flank.	A	"starboard(C,A)
+restricted(A)
+engine(C)"	"
+starboard(C,A)
+restricted(A)
+engine(A)"
+The oil tanker A is progressing through the waters. The yacht C is drawing close from the right side.	C	"starboard(C,A)
+engine(A)
+engine(C)"	"
+starboard(C,A)
+engine(A)
+engine(C)"
+The sailboat B is progressing through the waters. It is power-driven. The container ship E is approaching from the right side.	E	"starboard(E,B)
+engine(B)
+engine(E)"	"
+starboard(E,B)
+engine(B)
+engine(E)"
+The yacht G is progressing through the waters. The trawler A is closing in from the port side.	G	"port(A,G)
+engine(G)
+engine(A)"	"
+port(A,G)
+engine(G)
+engine(A)"
+The catamaran F is advancing on the water. It is under sail. The yacht H is approaching from the starboard side.	F	"starboard(H,F)
+sail(F)
+engine(H)"	"
+starboard(H,F)
+port(F,H)
+not head-on(H,F)
+not engine(F)
+sail(F)
+not restricted(F)
+not restricted(H)"
+The oil tanker G is making its way toward its course. The sailboat B is coming up to the right flank. It runs on engine power.	B	"starboard(B,G)
+engine(G)
+engine(B)"	"
+starboard(B,G)
+engine(B)
+engine(G)"
+The oil tanker D is making its way toward its course. The sailboat G is drawing close from the starboard side. It is power-driven. It is restricted in its maneuverability.	G	"starboard(G,D)
+engine(D)
+restricted(G)"	"
+starboard(E,H)
+engine(H)
+engine(E)"
+The ferry C is advancing on the water. The ferry H is closing in from the right side.	H	"starboard(H,C)
+engine(C)
+engine(H)"	"
+starboard(H,C)
+engine(C)
+engine(H)"
+The catamaran F is making its way toward its course. It is under sail. It can not change course while conducting its activities. The ferry D is approaching from the right side.	F	"starboard(D,F)
+restricted(F)
+engine(D)"	"
+starboard(D,F)
+sail(F)
+restricted(F)"
+The container ship F is navigating through the waters. The oil tanker C is closing in from the right side.	C	"starboard(C,F)
+engine(F)
+engine(C)"	"
+starboard(C,F)
+engine(F)
+engine(C)"
+The sailboat E is advancing on the water. It is under sail. The oil tanker F is moving forward head-on.	E	"head-on(F,E)
+sail(E)
+engine(F)"	"
+Facts:
+head-on(E,F)
+sail(E)
+engine(F)"
+The container ship H is navigating through the waters. The fishing boat C is moving forward from the right side.	C	"starboard(C,H)
+engine(H)
+engine(C)"	"
+starboard(C,H)
+engine(H)
+engine(C)"
+The container ship H is advancing on the water. The sailboat F is approaching head-on. It is sailing, not engine-driven.	F	"head-on(F,H)
+engine(H)
+sail(F)"	"
+port(F,H)
+engine(H)
+sail(F)"
+The fishing boat H is progressing through the waters. The ferry C is coming up from the left side.	H	"port(C,H)
+engine(H)
+engine(C)"	"
+Facts:
+port(C,H)
+engine(C)
+engine(H)"
+The sailboat A is making its way toward its course. It is sailing, not engine-driven. The oil tanker D is approaching head-on. It can not change course while conducting its activities.	D	"head-on(D,A)
+sail(A)
+restricted(D)"	"
+head-on(D,A)
+sail(A)
+restricted(D)"
+The ferry F is advancing on the water. The ferry C is coming up to the left flank.	F	"port(C,F)
+engine(F)
+engine(C)"	"
+port(D,G)
+engine(D)
+engine(G)
+restricted(G)"
+The oil tanker E is navigating through the waters. The yacht G is coming up to the right flank.	G	"starboard(G,E)
+engine(E)
+engine(G)"	"
+starboard(G,E)
+engine(E)
+engine(G)"
+The oil tanker G is navigating through the waters. The sailboat A is coming up from the left side. It runs on engine power.	G	"port(A,G)
+engine(G)
+engine(A)"	"
+port(A,G)
+engine(G)
+engine(A)"
+The catamaran D is heading toward its destination. It is power-driven. The ferry B is approaching from the left side.	D	"port(B,D)
+engine(D)
+engine(B)"	"
+port(B,D)
+engine(D)
+engine(B)"
+The container ship F is navigating through the waters. The ferry E is closing in from the starboard side.	E	"starboard(E,F)
+engine(F)
+engine(E)"	"
+port(E,F)
+engine(F)
+engine(E)"
+The ferry H is advancing on the water. The yacht C is drawing close from the right side. It is unable to alter its course due to ongoing operations.	C	"starboard(C,H)
+engine(H)
+restricted(C)"	"
+starboard(C,H)
+restricted(C)
+engine(H)"
+The catamaran D is navigating through the waters. It runs on engine power. The fishing boat C is closing in to the right flank.	C	"starboard(C,D)
+engine(D)
+engine(C)"	"
+starboard(C,D)
+engine(D)
+engine(C)"
+The catamaran H is making its way toward its course. It runs on engine power. The yacht E is moving forward from the right side.	E	"starboard(E,H)
+engine(H)
+engine(E)"	"
+starboard(E,H)
+engine(H)
+engine(E)"
+The ferry E is advancing on the water. The catamaran H is coming up head-on. It is power-driven.	0	"head-on(H,E)
+engine(E)
+engine(H)"	"
+Facts:
+head-on(H,E)
+engine(H)
+engine(E)"
+The trawler B is heading toward its destination. The trawler E is moving forward from the starboard side.	E	"starboard(E,B)
+engine(B)
+engine(E)"	"
+starboard(E,B)
+engine(B)
+engine(E)"
+The fishing boat H is making its way toward its course. The container ship D is approaching from the right side.	D	"starboard(D,H)
+engine(H)
+engine(D)"	"
+starboard(D,H)
+engine(H)
+engine(D)"
+The fishing boat G is advancing on the water. The sailboat B is approaching from the left side. It is power-driven.	G	"port(B,G)
+engine(G)
+engine(B)"	"
+port(B,G)
+engine(B)
+engine(G)"
+The ferry A is making its way toward its course. The catamaran G is drawing close to the right flank. It is sailing, not engine-driven.	G	"starboard(G,A)
+engine(A)
+sail(G)"	"
+starboard(G,A)
+engine(A)
+sail(G)"
+The container ship B is advancing on the water. The trawler C is drawing close head-on.	0	"head-on(C,B)
+engine(B)
+engine(C)"	"
+Facts:
+head-on(C,B)
+engine(B)
+engine(C)"
+The yacht B is making its way toward its course. The fishing boat D is approaching from the port side.	B	"port(D,B)
+engine(B)
+engine(D)"	"
+starboard(D,B)
+engine(B)
+engine(D)"
+The ferry B is navigating through the waters. The sailboat A is moving forward head-on. It is maneuvering with sail power.	A	"head-on(A,B)
+engine(B)
+sail(A)"	"
+engine(B)
+head-on(A,B)
+sail(A)"
+The container ship G is progressing through the waters. It is unable to alter its course due to ongoing operations. The container ship F is closing in from the left side.	G	"port(F,G)
+restricted(G)
+engine(F)"	"
+port(F,G)
+engine(G)
+engine(F)
+restricted(G)"
+The sailboat B is making its way toward its course. It is maneuvering with sail power. The fishing boat G is approaching to the right flank.	B	"starboard(G,B)
+sail(B)
+engine(G)"	"
+starboard(G,B)
+engine(G)
+sail(B)"
+The container ship F is navigating through the waters. The sailboat H is drawing close to the right flank. It is sailing, not engine-driven.	H	"starboard(H,F)
+engine(F)
+sail(H)"	"
+starboard(H,F)
+engine(F)
+sail(H)"
+The ferry C is advancing on the water. The catamaran A is coming up from the starboard side. It is power-driven.	A	"starboard(A,C)
+engine(C)
+engine(A)"	"
+starboard(A,C)
+engine(C)
+engine(A)"
+The sailboat E is navigating through the waters. It operates using engines. The yacht H is moving forward from the right side.	H	"starboard(H,E)
+engine(E)
+engine(H)"	"
+starboard(H,E)
+engine(E)
+engine(H)"
+The trawler F is advancing on the water. The sailboat C is approaching to the right flank. It operates using engines.	C	"starboard(C,F)
+engine(F)
+engine(C)"	"
+starboard(C,F)
+engine(F)
+engine(C)"
+The catamaran G is making its way toward its course. It is maneuvering with sail power. It is restricted in its maneuverability. The ferry D is closing in from the left side.	G	"port(D,G)
+restricted(G)
+engine(D)"	"
+port(D,G)
+sail(G)
+restricted(G)
+engine(D)"
+The oil tanker G is navigating through the waters. The ferry E is coming up from the left side.	G	"port(E,G)
+engine(G)
+engine(E)"	"
+port(E,G)
+engine(G)
+engine(E)"
+The container ship F is navigating through the waters. The yacht C is approaching from the port side.	F	"port(C,F)
+engine(F)
+engine(C)"	"
+port(C,F)
+engine(F)
+engine(C)"
+The ferry A is heading toward its destination. The catamaran B is drawing close from the port side. It runs on engine power.	A	"port(B,A)
+engine(A)
+engine(B)"	"
+Facts:
+port(B,A)
+engine(B)
+engine(A)"
+The yacht A is navigating through the waters. The ferry G is closing in from the left side.	A	"port(G,A)
+engine(A)
+engine(G)"	"
+starboard(F,A)
+engine(A)
+sail(F)"
+The oil tanker C is navigating through the waters. The sailboat E is coming up to the left flank. It operates using engines.	C	"port(E,C)
+engine(C)
+engine(E)"	"
+port(E,C)
+engine(E)"
+The container ship C is progressing through the waters. It is unable to alter its course due to ongoing operations. The yacht F is approaching from the left side.	C	"port(F,C)
+restricted(C)
+engine(F)"	"
+restricted(C)
+port(F,C)
+engine(C)
+engine(F)"
+The fishing boat E is progressing through the waters. The fishing boat A is drawing close to the right flank.	A	"starboard(A,E)
+engine(E)
+engine(A)"	"
+starboard(A,E)
+engine(E)
+engine(A)"
+The ferry H is advancing on the water. The sailboat F is coming up to the left flank. It is power-driven.	H	"port(F,H)
+engine(H)
+engine(F)"	"
+port(F,H)
+engine(F)
+engine(H)"
+The trawler E is heading toward its destination. The ferry H is coming up head-on.	0	"head-on(H,E)
+engine(E)
+engine(H)"	"
+head-on(H,E)
+engine(H)"
+The fishing boat C is heading toward its destination. The catamaran A is coming up head-on. It is maneuvering with sail power.	A	"head-on(A,C)
+engine(C)
+sail(A)"	"
+head-on(A,C)
+engine(C)
+sail(A)"
+The ferry B is advancing on the water. The trawler E is closing in head-on.	0	"head-on(E,B)
+engine(B)
+engine(E)"	"
+Facts:
+head-on(E,B)
+engine(B)
+engine(E)"
+The oil tanker C is making its way toward its course. The oil tanker E is closing in to the left flank.	C	"port(E,C)
+engine(C)
+engine(E)"	"
+port(E,C)
+engine(C)
+engine(E)"
+The ferry C is heading toward its destination. The yacht F is approaching to the right flank.	F	"starboard(F,C)
+engine(C)
+engine(F)"	"
+starboard(F,C)
+engine(C)
+engine(F)"
+The ferry E is heading toward its destination. The ferry C is drawing close from the left side. It is restricted in its maneuverability.	C	"port(C,E)
+engine(E)
+restricted(C)"	"
+port(C,E)
+engine(E)
+engine(C)
+restricted(C)"
+The trawler D is navigating through the waters. The trawler B is coming up head-on.	0	"head-on(B,D)
+engine(D)
+engine(B)"	"
+engine(D)
+engine(B)"

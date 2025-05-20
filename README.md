@@ -1,5 +1,5 @@
 # Multi-hop Reasoning
-The official implementation code of the paper "Improving Multi-hop Logical Reasoning in Small LMs with LoRA Training" [(Link)](https://journals.flvc.org/FLAIRS/article/view/135477/139622).
+The official implementation code of the paper "Improving Multi-hop Logical Reasoning in Small LMs with LoRA Training" [(Link)](https://journals.flvc.org/FLAIRS/article/view/138643/144062).
 
 ## Methodology
 
@@ -7,26 +7,24 @@ The official implementation code of the paper "Improving Multi-hop Logical Reaso
 
 ## Usage
 
-- Run prompt.py for relevance-chain prompting. This file saves the llm outputs in a .txt file and llm predictions in a .tsv file in separate folders:
+- Run navset_lora_train.py to train the models.
 
 ```
-python prompt.py --model_name gpt-3.5-turbo --prompting_style relevance-chain --shots 2 --steps 5 --dataset val --score_type chain
+python navset_lora_train.py --model_name meta-llama/Llama-3.1-8B-Instruct
 ```
 
-- Run prompt2roscoe.py to convert the relevance chain into into ROSCOE format. This file saves the dictionary for ROSCOE-input in a .json file and chain scores in a .txt file.
+- Run navset_lora_test.py and navset_quan_test.py for testing. The LoRA models should be in the same folder.
 
 ```
-python prompt2roscoe.py --model_name gpt-3.5-turbo --prompting_style relevance-chain --shots 2 --dataset val
+python navset_lora_test.py --model_name meta-llama/Llama-3.1-8B-Instruct --train_dataset navset
 ```
 
-- Clone the ROSCOE repo and run ROSCOE metrics on the .json file. Thus, move the .json file to "roscoe/ParlAI/projects/roscoe/roscoe_data/generated" and run:
-
 ```
-python projects/roscoe/roscoe.py -t sim_sce -m facebook/roscoe-512-roberta-base --datasets ler
+python navset_quan_test.py --model_name meta-llama/Llama-3.1-8B-Instruct
 ```
 
-- Move the created .tsv file with ROSCOE scores in scores_relevance-chain folder. Run correlation.py for postprocessing:
+- Run navset_facts.py for evaluation:
 
 ```
-python correlation.py --model_name gpt-3.5-turbo --prompting_style relevance-chain --shots 2 --steps 5 --score_type chain
+python navset_facts.py --model_name meta-llama_Llama-3.1-8B-Instruct_navset_lora
 ```

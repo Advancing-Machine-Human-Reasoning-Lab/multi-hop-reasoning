@@ -1,0 +1,1187 @@
+text	facts	question	label
+Mia is the tallest. Mia is taller than Suzie. Marsellus is taller than John. Suzie is shorter than Marsellus.	"taller(Mia,Suzie)
+taller(Marsellus,John)
+shorter(Suzie,Marsellus)
+tallest(Mia)"	Is Mia the tallest ?	yes
+John is shorter than Suzie. Mia is taller than Suzie. Marsellus is taller than John. Suzie is shorter than Marsellus.	"shorter(John,Suzie)
+taller(Mia,Suzie)
+taller(Marsellus,John)
+shorter(Suzie,Marsellus)"	Is John the shortest ?	yes
+John is shorter than Suzie. Mia is the tallest. Marsellus is taller than John. Suzie is shorter than Marsellus.	"shorter(John,Suzie)
+taller(Marsellus,John)
+shorter(Suzie,Marsellus)
+tallest(Mia)"	Is Mia the tallest ?	yes
+John is shorter than Suzie. Mia is the tallest. Mia is taller than Suzie. Suzie is shorter than Marsellus.	"shorter(John,Suzie)
+taller(Mia,Suzie)
+shorter(Suzie,Marsellus)
+tallest(Mia)"	Is Mia the tallest ?	yes
+John is shorter than Suzie. Mia is the tallest. Mia is taller than Suzie. Marsellus is taller than John.	"shorter(John,Suzie)
+taller(Mia,Suzie)
+taller(Marsellus,John)
+tallest(Mia)"	Is Mia the tallest ?	yes
+Tadeo is shorter than Mateo. Manuella is taller than Mateo. Teo is taller than Mateo. Manuella is shorter than Teo. Malvina is the shortest.	"taller(Teo,Mateo)
+taller(Manuella,Mateo)
+shorter(Tadeo,Mateo)
+shortest(Malvina)
+shorter(Manuella,Teo)"	Is Malvina the shortest ?	yes
+Malvina is shorter than Mateo. Manuella is taller than Mateo. Teo is taller than Mateo. Manuella is shorter than Teo. Tadeo is shorter than Manuella. Malvina is the shortest.	"shorter(Tadeo,Manuella)
+taller(Teo,Mateo)
+taller(Manuella,Mateo)
+shorter(Malvina,Mateo)
+shortest(Malvina)
+shorter(Manuella,Teo)"	Is Malvina the shortest ?	yes
+Malvina is shorter than Mateo. Tadeo is shorter than Mateo. Teo is taller than Mateo. Manuella is shorter than Teo. Malvina is the shortest.	"taller(Teo,Mateo)
+shorter(Tadeo,Mateo)
+shorter(Malvina,Mateo)
+shortest(Malvina)
+shorter(Manuella,Teo)"	Is Malvina the shortest ?	yes
+Malvina is shorter than Mateo. Tadeo is shorter than Mateo. Manuella is taller than Mateo. Manuella is shorter than Teo. Malvina is the shortest.	"taller(Manuella,Mateo)
+shorter(Tadeo,Mateo)
+shorter(Malvina,Mateo)
+shortest(Malvina)
+shorter(Manuella,Teo)"	Is Malvina the shortest ?	yes
+Malvina is shorter than Mateo. Tadeo is shorter than Mateo. Manuella is taller than Mateo. Teo is taller than Mateo. Malvina is the shortest.	"taller(Teo,Mateo)
+taller(Manuella,Mateo)
+shorter(Tadeo,Mateo)
+shorter(Malvina,Mateo)
+shortest(Malvina)"	Is Malvina the shortest ?	yes
+Malvina is shorter than Mateo. Tadeo is shorter than Mateo. Manuella is taller than Mateo. Teo is taller than Mateo. Manuella is shorter than Teo.	"taller(Teo,Mateo)
+taller(Manuella,Mateo)
+shorter(Tadeo,Mateo)
+shorter(Malvina,Mateo)
+shorter(Manuella,Teo)"	Is Teo the tallest ?	yes
+Gopal is taller than Kunal. Navin is shorter than Kunal. Jayesh is taller than Gopal.  Ashok is taller than Jayesh. Navin is the shortest.	"taller(Ashok,Jayesh)
+taller(Jayesh,Gopal)
+taller(Gopal,Kunal)
+shorter(Navin,Kunal)
+shortest(Navin)"	Is Navin the shortest ?	yes
+Gopal is shorter than Ashok. Navin is shorter than Kunal. Jayesh is taller than Gopal.  Ashok is taller than Jayesh. Kunal is shorter than Jayesh. Navin is the shortest.	"shorter(Gopal,Ashok)
+taller(Ashok,Jayesh)
+taller(Jayesh,Gopal)
+shorter(Kunal,Jayesh)
+shorter(Navin,Kunal)
+shortest(Navin)"	Is Navin the shortest ?	yes
+Gopal is shorter than Ashok. Navin is shorter than Kunal. Jayesh is taller than Gopal.  Ashok is taller than Jayesh. Navin is the shortest.	"shorter(Gopal,Ashok)
+taller(Ashok,Jayesh)
+taller(Jayesh,Gopal)
+shorter(Navin,Kunal)
+shortest(Navin)"	Is Navin the shortest ?	yes
+Gopal is shorter than Ashok. Gopal is taller than Kunal. Jayesh is taller than Gopal.  Ashok is taller than Jayesh. Navin is the shortest.	"shorter(Gopal,Ashok)
+taller(Ashok,Jayesh)
+taller(Jayesh,Gopal)
+taller(Gopal,Kunal)
+shortest(Navin)"	Is Navin the shortest ?	yes
+Gopal is shorter than Ashok. Gopal is taller than Kunal. Navin is shorter than Kunal. Ashok is taller than Jayesh. Navin is the shortest.	"shorter(Gopal,Ashok)
+taller(Ashok,Jayesh)
+taller(Gopal,Kunal)
+shorter(Navin,Kunal)
+shortest(Navin)"	Is Navin the shortest ?	yes
+Gopal is shorter than Ashok. Gopal is taller than Kunal. Navin is shorter than Kunal. Jayesh is taller than Gopal. Navin is the shortest.	"shorter(Gopal,Ashok)
+taller(Jayesh,Gopal)
+taller(Gopal,Kunal)
+shorter(Navin,Kunal)
+shortest(Navin)"	Is Navin the shortest ?	yes
+Gopal is shorter than Ashok. Gopal is taller than Kunal. Navin is shorter than Kunal. Jayesh is taller than Gopal.  Ashok is taller than Jayesh.	"shorter(Gopal,Ashok)
+taller(Ashok,Jayesh)
+taller(Jayesh,Gopal)
+taller(Gopal,Kunal)
+shorter(Navin,Kunal)"	Is Navin the shortest ?	yes
+Diana is taller than Maria. Maria is the shortest.	"taller(Diana,Maria)
+shortest(Maria)"	Is Maria the shortest ?	yes
+Tom is taller than Diana. Maria is the shortest.	"taller(Tom,Diana)
+shortest(Maria)"	Is Maria the shortest ?	yes
+Tom is taller than Diana. Diana is taller than Maria.	"taller(Diana,Maria)
+taller(Tom,Diana)"	Is Maria the shortest ?	yes
+Navin is shorter than Kunal. Jayesh is taller than Navin. Ashok is taller than Jayesh. Jayesh is shorter than Gopal but taller than Kunal.	"taller(Jayesh,Kunal)
+taller(Ashok,Jayesh)
+shorter(Jayesh,Gopal)
+shorter(Navin,Kunal)
+taller(Jayesh,Navin)"	Is Navin the shortest ?	yes
+Gopal is shorter than Ashok but taller than Kunal. Jayesh is taller than Navin. Ashok is taller than Jayesh. Jayesh is shorter than Gopal but taller than Kunal.	"taller(Jayesh,Kunal)
+shorter(Gopal,Ashok)
+taller(Ashok,Jayesh)
+taller(Gopal,Kunal)
+shorter(Jayesh,Gopal)
+taller(Jayesh,Navin)"	Is Ashok the tallest ?	yes
+Gopal is shorter than Ashok but taller than Kunal. Navin is shorter than Kunal. Ashok is taller than Jayesh. Jayesh is shorter than Gopal but taller than Kunal.	"taller(Jayesh,Kunal)
+shorter(Gopal,Ashok)
+taller(Ashok,Jayesh)
+taller(Gopal,Kunal)
+shorter(Jayesh,Gopal)
+shorter(Navin,Kunal)"	Is Navin the shortest ?	yes
+Gopal is shorter than Ashok but taller than Kunal. Navin is shorter than Kunal. Jayesh is taller than Navin. Jayesh is shorter than Gopal but taller than Kunal.	"taller(Jayesh,Kunal)
+shorter(Gopal,Ashok)
+taller(Gopal,Kunal)
+shorter(Jayesh,Gopal)
+shorter(Navin,Kunal)
+taller(Jayesh,Navin)"	Is Navin the shortest ?	yes
+Gopal is shorter than Ashok but taller than Kunal. Navin is shorter than Kunal. Jayesh is taller than Navin. Ashok is taller than Jayesh.	"shorter(Gopal,Ashok)
+taller(Ashok,Jayesh)
+taller(Gopal,Kunal)
+shorter(Navin,Kunal)
+taller(Jayesh,Navin)"	Is Navin the shortest ?	yes
+Sam is taller than Kevin but shorter than Salman. Sanjay is shorter than Mike.	"shorter(Sanjay,Mike)
+shorter(Sam,Salman)
+taller(Sam,Kevin)"	Is Sam taller than Kevin ?	yes
+Mike is taller than Salman who is shorter than Sanjay. Sanjay is shorter than Mike.	"shorter(Salman,Sanjay)
+shorter(Sanjay,Mike)
+taller(Mike,Salman)"	Is Salman the shortest ?	yes
+Mike is taller than Salman who is shorter than Sanjay. Sam is taller than Kevin but shorter than Salman.	"shorter(Salman,Sanjay)
+shorter(Sam,Salman)
+taller(Mike,Salman)
+taller(Sam,Kevin)"	Is Kevin the shortest ?	yes
+There are four dolls Dottie, Lottie, Suzie and Katy. Dottie is shorter than Lottie but taller than Suzie.	"shorter(Dottie,Lottie)
+taller(Dottie,Suzie)"	Is Suzie shorter than Dottie ?	yes
+There are four dolls Dottie, Lottie, Suzie and Katy. Lottie is not taller than Katy.  Dottie is taller than Suzie.	"not_taller(Lottie,Katy)
+taller(Dottie,Suzie)"	Is Dottie taller than Suzie ?	yes
+There are four dolls Dottie, Lottie, Suzie and Katy. Lottie is not taller than Katy. Dottie is shorter than.	not_taller(Lottie,Katy)	Is Lottie shorter than Katy ?	yes
+Ross is shorter than Peter. Sam is taller than Tom. Sam is shorter than Katy. Katy is shorter than Ross.	"shorter(Sam,Katy)
+taller(Sam,Tom)
+shorter(Ross,Peter)
+shorter(Katy,Ross)"	Is Tom the shortest ?	yes
+Peter is taller than Katy. Sam is taller than Tom but shorter than Katy. Katy is shorter than Ross.	"shorter(Sam,Katy)
+taller(Sam,Tom)
+taller(Peter,Katy)
+shorter(Katy,Ross)"	Is Tom the shortest ?	yes
+Peter is taller than Katy. Ross is shorter than Peter. Sam is shorter than Katy. Katy is shorter than Ross.	"shorter(Sam,Katy)
+shorter(Ross,Peter)
+taller(Peter,Katy)
+shorter(Katy,Ross)"	Is Sam the shortest ?	yes
+Peter is taller than Katy. Ross is shorter than Peter. Sam is taller than Tom. Katy is shorter than Ross.	"taller(Sam,Tom)
+shorter(Ross,Peter)
+taller(Peter,Katy)
+shorter(Katy,Ross)"	Is Ross taller than Katy ?	yes
+Peter is taller than Katy. Ross is shorter than Peter. Katy is shorter than Ross.	"shorter(Ross,Peter)
+taller(Peter,Katy)
+shorter(Katy,Ross)"	Is Katy the shortest ?	yes
+Peter is taller than Katy. Ross is shorter than Peter. Sam is taller than Tom but shorter than Katy.	"shorter(Sam,Katy)
+taller(Sam,Tom)
+shorter(Ross,Peter)
+taller(Peter,Katy)"	Is Peter the tallest ?	yes
+Vineet is shorter than Ravi. Jacob is taller than Dilip but shorter than Manick.	"taller(Jacob,Dilip)
+shorter(Jacob,Manick)
+shorter(Vineet,Ravi)"	Is Dilip shorter than Manick ?	yes
+Vineet is taller than Manick. Jacob is taller than Dilip but shorter than Manick.	"taller(Jacob,Dilip)
+taller(Vineet,Manick)
+shorter(Jacob,Manick)"	Is Dilip the shortest ?	yes
+Vineet is taller than Manick but shorter than Ravi. Jacob is shorter than Manick.	"shorter(Vineet,Ravi)
+taller(Vineet,Manick)
+shorter(Jacob,Manick)"	Is Jacob the shortest ?	yes
+Vineet is taller than Manick but shorter than Ravi. Jacob is taller than Dilip.	"taller(Jacob,Dilip)
+taller(Vineet,Manick)
+shorter(Vineet,Ravi)"	Is Vineet taller than Manick ?	yes
+Rohan is taller than Anand. Krishna is taller than Pushpa but shorter than Anand. Dhiraj is taller than Krishna but shorter than Seema. Dhiraj is taller than Rohan.	"shorter(Krishna,Anand)
+taller(Rohan,Anand)
+taller(Dhiraj,Rohan)
+taller(Dhiraj,Krishna)
+shorter(Dhiraj,Seema)
+taller(Krishna,Pushpa)"	Is Pushpa the shortest ?	yes
+Rohan is shorter than Seema. Krishna is taller than Pushpa but shorter than Anand. Dhiraj is taller than Krishna but shorter than Seema. Dhiraj is taller than Rohan.	"shorter(Krishna,Anand)
+taller(Dhiraj,Rohan)
+shorter(Rohan,Seema)
+taller(Dhiraj,Krishna)
+shorter(Dhiraj,Seema)
+taller(Krishna,Pushpa)"	Is Rohan shorter than Dhiraj ?	yes
+Rohan is taller than Anand but shorter than Seema. Krishna is shorter than Anand. Dhiraj is taller than Krishna but shorter than Seema. Dhiraj is taller than Rohan.	"shorter(Krishna,Anand)
+taller(Rohan,Anand)
+taller(Dhiraj,Rohan)
+shorter(Rohan,Seema)
+taller(Dhiraj,Krishna)
+shorter(Dhiraj,Seema)"	Is Krishna the shortest ?	yes
+Rohan is taller than Anand but shorter than Seema. Krishna is taller than Pushpa. Dhiraj is taller than Krishna but shorter than Seema. Dhiraj is taller than Rohan.	"taller(Rohan,Anand)
+taller(Dhiraj,Rohan)
+shorter(Rohan,Seema)
+taller(Dhiraj,Krishna)
+shorter(Dhiraj,Seema)
+taller(Krishna,Pushpa)"	Is Seema the tallest ?	yes
+Rohan is taller than Anand but shorter than Seema. Krishna is taller than Pushpa but shorter than Anand. Dhiraj is shorter than Seema. Dhiraj is taller than Rohan.	"shorter(Krishna,Anand)
+taller(Rohan,Anand)
+taller(Dhiraj,Rohan)
+shorter(Rohan,Seema)
+shorter(Dhiraj,Seema)
+taller(Krishna,Pushpa)"	Is Pushpa the shortest ?	yes
+Rohan is taller than Anand but shorter than Seema. Krishna is taller than Pushpa but shorter than Anand. Dhiraj is taller than Krishna. Dhiraj is taller than Rohan.	"shorter(Krishna,Anand)
+taller(Rohan,Anand)
+taller(Dhiraj,Rohan)
+shorter(Rohan,Seema)
+taller(Dhiraj,Krishna)
+taller(Krishna,Pushpa)"	Is Pushpa the shortest ?	yes
+Rohan is taller than Anand but shorter than Seema. Krishna is taller than Pushpa but shorter than Anand. Dhiraj is taller than Krishna but shorter than Seema.	"shorter(Krishna,Anand)
+taller(Rohan,Anand)
+shorter(Rohan,Seema)
+taller(Dhiraj,Krishna)
+shorter(Dhiraj,Seema)
+taller(Krishna,Pushpa)"	Is Pushpa the shortest ?	yes
+A, B, C, D, E and F are six students in a class. D is taller than C. E is shorter than D but taller than F. A is shorter than E but taller than F. B is shorter than C.	"shorter(A,E)
+taller(A,F)
+taller(D,C)
+shorter(B,C)
+taller(E,F)
+shorter(E,D)"	Is D the tallest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F. E is shorter than D but taller than F. A is shorter than E but taller than F. B is shorter than C.	"shorter(A,E)
+taller(A,F)
+shorter(B,C)
+shorter(B,F)
+shorter(C,F)
+taller(E,F)
+shorter(E,D)"	Is B the shortest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F. D is taller than C. E is taller than F. A is shorter than E but taller than F. B is shorter than C.	"shorter(A,E)
+taller(A,F)
+taller(D,C)
+shorter(B,C)
+taller(E,F)"	Is B the shortest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F. D is taller than C. E is shorter than D. A is shorter than E but taller than F. B is shorter than C.	"shorter(A,E)
+taller(A,F)
+shorter(B,F)
+shorter(C,F)
+taller(D,C)
+shorter(B,C)
+shorter(E,D)"	Is B the shortest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F. D is taller than C. E is shorter than D but taller than F. A is taller than F. B is shorter than C.	"taller(A,F)
+taller(D,C)
+shorter(B,C)
+shorter(B,F)
+shorter(C,F)
+taller(E,F)
+shorter(E,D)"	Is B the shortest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F. D is taller than C. E is shorter than D but taller than F. A is shorter than E. B is shorter than C.	"shorter(A,E)
+taller(D,C)
+shorter(B,C)
+shorter(B,F)
+shorter(C,F)
+taller(E,F)
+shorter(E,D)"	Is D the tallest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F. D is taller than C. E is shorter than D but taller than F. A is shorter than E but taller than F.	"shorter(A,E)
+taller(A,F)
+shorter(B,F)
+shorter(C,F)
+taller(D,C)
+taller(E,F)
+shorter(E,D)"	Is D the tallest ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. DD is taller than BB and shorter than CC. EE is shorter than DD but taller than FF. FF is taller than BB.	"taller(FF,BB)
+shorter(EE,DD)
+shorter(DD,CC)
+taller(EE,FF)
+taller(DD,BB)"	Is BB the shortest ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. BB and CC are taller than AA. DD is shorter than CC. EE is shorter than DD but taller than FF. FF is taller than BB.	"taller(EE,FF)
+shorter(DD,CC)
+taller(BB,AA)
+taller(CC,AA)
+taller(FF,BB)
+shorter(EE,DD)"	Is AA the shortest ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. BB and CC are taller than AA. DD is taller than BB. EE is shorter than DD but taller than FF. FF is taller than BB.	"taller(EE,FF)
+taller(FF,BB)
+taller(BB,AA)
+taller(CC,AA)
+taller(DD,BB)
+shorter(EE,DD)"	Is AA the shortest ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. BB and CC are taller than AA. DD is taller than BB and shorter than CC. EE is taller than FF. FF is taller than BB.	"shorter(DD,CC)
+taller(EE,FF)
+taller(BB,AA)
+taller(CC,AA)
+taller(FF,BB)
+taller(DD,BB)"	Is AA the shortest ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. BB and CC are taller than AA. DD is taller than BB and shorter than CC. EE is shorter than DD. FF is taller than BB.	"shorter(DD,CC)
+taller(FF,BB)
+taller(BB,AA)
+taller(CC,AA)
+taller(DD,BB)
+shorter(EE,DD)"	Is FF taller than BB ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. BB and CC are taller than AA. DD is taller than BB and shorter than CC. EE is shorter than DD but taller than FF.	"taller(EE,FF)
+shorter(DD,CC)
+taller(BB,AA)
+taller(CC,AA)
+taller(DD,BB)
+shorter(EE,DD)"	Is CC the tallest ?	yes
+A, B, C, D, E and F are six friends in a group. D is taller than B and shorter than E. E is shorter than F but taller than C. C is taller than B but shorter than D.	"shorter(E,F)
+shorter(C,D)
+shorter(D,E)
+taller(E,C)
+taller(D,B)
+taller(C,B)"	Is B the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. B is taller than A. D is taller than B and shorter than E. E is shorter than F but taller than C. C is taller than B but shorter than D.	"shorter(E,F)
+taller(B,A)
+shorter(C,D)
+shorter(D,E)
+taller(E,C)
+taller(D,B)
+taller(C,B)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. C is taller than A. D is taller than B and shorter than E. E is shorter than F but taller than C. C is taller than B but shorter than D.	"shorter(E,F)
+taller(C,A)
+shorter(C,D)
+shorter(D,E)
+taller(E,C)
+taller(D,B)
+taller(C,B)"	Is F the tallest ?	yes
+A, B, C, D, E and F are six friends in a group. B and C are taller than A. D is shorter than E. E is shorter than F but taller than C. C is taller than B but shorter than D.	"shorter(E,F)
+shorter(C,D)
+taller(B,A)
+taller(C,A)
+shorter(D,E)
+taller(E,C)
+taller(C,B)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. B and C are taller than A. D is taller than B. E is shorter than F but taller than C. C is taller than B but shorter than D.	"shorter(E,F)
+shorter(C,D)
+taller(E,C)
+taller(B,A)
+taller(C,A)
+taller(D,B)
+taller(C,B)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. B and C are taller than A. D is taller than B and shorter than E. E is taller than C. C is taller than B but shorter than D.	"shorter(C,D)
+shorter(D,E)
+taller(E,C)
+taller(B,A)
+taller(C,A)
+taller(D,B)
+taller(C,B)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. B and C are taller than A. D is taller than B and shorter than E. E is shorter than F. C is taller than B but shorter than D.	"shorter(E,F)
+shorter(C,D)
+shorter(D,E)
+taller(B,A)
+taller(C,A)
+taller(D,B)
+taller(C,B)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. B and C are taller than A. D is taller than B and shorter than E. E is shorter than F but taller than C. C is shorter than D.	"shorter(E,F)
+shorter(C,D)
+shorter(D,E)
+taller(B,A)
+taller(C,A)
+taller(E,C)
+taller(D,B)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. B and C are taller than A. D is taller than B and shorter than E. E is shorter than F but taller than C. C is taller than B.	"shorter(E,F)
+shorter(D,E)
+taller(E,C)
+taller(B,A)
+taller(C,A)
+taller(D,B)
+taller(C,B)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. B and C are taller than A. E is shorter than F but taller than C. C is taller than B but shorter than D.	"taller(E,C)
+shorter(C,D)
+shorter(E,F)
+taller(B,A)
+taller(C,A)
+taller(C,B)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. B and C are taller than A. D is taller than B and shorter than E. C is taller than B but shorter than D.	"shorter(C,D)
+taller(D,B)
+shorter(D,E)
+taller(B,A)
+taller(C,A)
+taller(C,B)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six friends in a group. B and C are taller than A. D is taller than B and shorter than E. E is shorter than F but taller than C.	"taller(E,C)
+taller(D,B)
+shorter(E,F)
+taller(B,A)
+taller(C,A)
+shorter(D,E)"	Is A the shortest ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. BB is shorter than CC. CC is shorter than DD. DD is shorter than EE. EE is shorter than FF.	"shorter(EE,FF)
+shorter(BB,CC)
+shorter(CC,DD)
+shorter(DD,EE)"	Is BB the shortest ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. AA is shorter than BB. CC is shorter than DD. DD is shorter than EE. EE is shorter than FF.	"shorter(EE,FF)
+shorter(DD,EE)
+shorter(CC,DD)
+shorter(AA,BB)"	Is EE shorter than FF ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. AA is shorter than BB. BB is shorter than CC. DD is shorter than EE. EE is shorter than FF.	"shorter(EE,FF)
+shorter(BB,CC)
+shorter(DD,EE)
+shorter(AA,BB)"	Is EE shorter than FF ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. AA is shorter than BB. BB is shorter than CC. CC is shorter than DD. EE is shorter than FF.	"shorter(EE,FF)
+shorter(BB,CC)
+shorter(CC,DD)
+shorter(AA,BB)"	Is EE shorter than FF ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. AA is shorter than BB. BB is shorter than CC. CC is shorter than DD. DD is shorter than EE. DD is shorter than FF.	"shorter(DD,FF)
+shorter(DD,EE)
+shorter(CC,DD)
+shorter(AA,BB)
+shorter(BB,CC)"	Is AA the shortest ?	yes
+AA, BB, CC, DD, EE and FF are six friends in a group. AA is shorter than CC. BB is shorter than CC. CC is shorter than DD. DD is shorter than EE. EE is shorter than FF.	"shorter(BB,CC)
+shorter(DD,EE)
+shorter(CC,DD)
+shorter(AA,CC)
+shorter(EE,FF)"	Is FF the tallest ?	yes
+A, B, C, D and E are five friends. C is taller than D and E. A is taller than D.  B is shorter than E but taller than A. D is the shortest.	"taller(B,A)
+taller(A,D)
+shortest(D)
+taller(C,E)
+taller(C,D)
+shorter(B,E)"	Is D the shortest ?	yes
+A, B, C, D and E are five friends. B is shorter than C. A is taller than D.  B is shorter than E but taller than A. D is the shortest.	"taller(B,A)
+taller(A,D)
+shortest(D)
+shorter(B,C)
+shorter(B,E)"	Is D the shortest ?	yes
+A, B, C, D and E are five friends. B is shorter than C. C is taller than D and E. B is shorter than E but taller than A. D is the shortest.	"taller(B,A)
+shortest(D)
+shorter(B,C)
+taller(C,E)
+taller(C,D)
+shorter(B,E)"	Is D the shortest ?	yes
+A, B, C, D and E are five friends. B is shorter than C. C is taller than D and E. A is taller than D. D is the shortest.	"taller(A,D)
+shortest(D)
+shorter(B,C)
+taller(C,E)
+taller(C,D)"	Is D the shortest ?	yes
+A, B, C, D and E are five friends. B is shorter than C. C is taller than D and E. A is taller than D.  B is shorter than E. D is the shortest.	"taller(A,D)
+shortest(D)
+shorter(B,C)
+taller(C,E)
+taller(C,D)
+shorter(B,E)"	Is D the shortest ?	yes
+A, B, C, D and E are five friends. B is shorter than C. C is taller than D and E. A is taller than D.  B is taller than A. D is the shortest.	"taller(B,A)
+taller(A,D)
+shortest(D)
+shorter(B,C)
+taller(C,E)
+taller(C,D)"	Is D the shortest ?	yes
+A, B, C, D and E are five friends. B is shorter than C. C is taller than D and E. A is taller than D.  B is shorter than E but taller than A.	"taller(A,D)
+taller(B,A)
+shorter(B,C)
+taller(C,E)
+taller(C,D)
+shorter(B,E)"	Is D the shortest ?	yes
+CC is taller than AA. EE is taller than FF but shorter than BB.	"taller(CC,AA)
+shorter(EE,BB)
+taller(EE,FF)"	Is EE taller than FF ?	yes
+AA is taller than BB. EE is taller than FF but shorter than BB.	"shorter(EE,BB)
+taller(EE,FF)
+taller(AA,BB)"	Is FF the shortest ?	yes
+AA is taller than BB and CC is taller than AA. EE is taller than FF.	"taller(CC,AA)
+taller(EE,FF)
+taller(AA,BB)"	Is EE taller than FF ?	yes
+AA is taller than BB and CC is taller than AA. EE is shorter than BB.	"shorter(EE,BB)
+taller(CC,AA)
+taller(AA,BB)"	Is EE the shortest ?	yes
+Ramesh is shorter than Nandu. Satish is taller than Vinod but shorter than Subodh. Vinod is taller than Jayesh.	"shorter(Ramesh,Nandu)
+shorter(Satish,Subodh)
+taller(Satish,Vinod)
+taller(Vinod,Jayesh)"	Is Vinod shorter than Subodh ?	yes
+Jayesh is taller than Nandu. Satish is taller than Vinod but shorter than Subodh. Vinod is taller than Jayesh.	"shorter(Satish,Subodh)
+taller(Jayesh,Nandu)
+taller(Satish,Vinod)
+taller(Vinod,Jayesh)"	Is Nandu the shortest ?	yes
+Jayesh is taller than Nandu. Ramesh is shorter than Nandu. Satish is shorter than Subodh. Vinod is taller than Jayesh.	"shorter(Ramesh,Nandu)
+shorter(Satish,Subodh)
+taller(Jayesh,Nandu)
+taller(Vinod,Jayesh)"	Is Nandu taller than Ramesh ?	yes
+Jayesh is taller than Nandu. Ramesh is shorter than Nandu. Satish is taller than Vinod. Vinod is taller than Jayesh.	"shorter(Ramesh,Nandu)
+taller(Jayesh,Nandu)
+taller(Satish,Vinod)
+taller(Vinod,Jayesh)"	Is Ramesh the shortest ?	yes
+Jayesh is taller than Nandu. Ramesh is shorter than Nandu. Satish is taller than Vinod but shorter than Subodh.	"shorter(Ramesh,Nandu)
+taller(Jayesh,Nandu)
+taller(Satish,Vinod)
+shorter(Satish,Subodh)"	Is Nandu taller than Ramesh ?	yes
+Jayesh is taller than Nandu. Ramesh is shorter than Nandu. Satish is taller than Vinod. Vinod is taller than Jayesh. Subodh is taller than Vinod.	"shorter(Ramesh,Nandu)
+taller(Jayesh,Nandu)
+taller(Satish,Vinod)
+taller(Vinod,Jayesh)
+taller(Subodh,Vinod)"	Is Ramesh the shortest ?	yes
+A is shorter than C. B is not taller than D but taller than E. D is shorter than A.	"shorter(A,C)
+not_taller(B,D)
+shorter(D,A)
+taller(B,E)"	Is E the shortest ?	yes
+A is taller than B. B is not taller than D but taller than E. D is shorter than A.	"shorter(D,A)
+not_taller(B,D)
+taller(A,B)
+taller(B,E)"	Is E the shortest ?	yes
+A is taller than B but shorter than C. B is taller than E. D is shorter than A.	"shorter(D,A)
+shorter(A,C)
+taller(A,B)
+taller(B,E)"	Is C the tallest ?	yes
+A is taller than B but shorter than C. B is not taller than D. D is shorter than A.	"shorter(D,A)
+shorter(A,C)
+not_taller(B,D)
+taller(A,B)"	Is B the shortest ?	yes
+A is taller than B but shorter than C. B is not taller than D but taller than E.	"shorter(A,C)
+not_taller(B,D)
+taller(A,B)
+taller(B,E)"	Is E the shortest ?	yes
+Peter is not taller than Mike. Mike is taller than Katy and Sam. Ross is not taller than Mike. Katy is taller than Peter but is not the tallest. Sam is shorter than Peter.	"taller(Mike,Katy)
+shorter(Sam,Peter)
+taller(Mike,Sam)
+taller(Katy,Peter)
+not_taller(Peter,Mike)
+not_taller(Ross,Mike)
+not_tallest(Katy)"	Is Mike the tallest ?	yes
+Peter is taller than Ross. Mike is taller than Katy and Sam. Ross is not taller than Mike. Katy is taller than Peter but is not the tallest. Sam is taller than Ross but is shorter than Peter.	"taller(Mike,Katy)
+taller(Mike,Sam)
+taller(Katy,Peter)
+not_taller(Ross,Mike)
+taller(Peter,Ross)
+shorter(Sam,Peter)
+taller(Sam,Ross)
+not_tallest(Katy)"	Is Ross the shortest ?	yes
+Peter is taller than Ross but is not taller than Mike. Ross is not taller than Mike. Katy is taller than Peter but is not the tallest. Sam is taller than Ross but is shorter than Peter.	"not_taller(Peter,Mike)
+taller(Katy,Peter)
+not_taller(Ross,Mike)
+taller(Peter,Ross)
+shorter(Sam,Peter)
+taller(Sam,Ross)
+not_tallest(Katy)"	Is Ross the shortest ?	yes
+Peter is taller than Ross but is not taller than Mike. Mike is taller than Katy. Ross is not taller than Mike. Katy is taller than Sam but is not the tallest. Sam is taller than Ross but is shorter than Peter.	"taller(Mike,Katy)
+not_taller(Peter,Mike)
+not_taller(Ross,Mike)
+taller(Peter,Ross)
+shorter(Sam,Peter)
+taller(Katy,Sam)
+taller(Sam,Ross)
+not_tallest(Katy)"	Is Ross the shortest ?	yes
+Peter is taller than Ross but is not taller than Mike. Mike is taller than Katy and Sam. Katy is taller than Sam. Sam is taller than Ross but is shorter than Peter.	"taller(Mike,Katy)
+taller(Mike,Sam)
+not_taller(Peter,Mike)
+taller(Peter,Ross)
+shorter(Sam,Peter)
+taller(Katy,Sam)
+taller(Sam,Ross)"	Is Ross the shortest ?	yes
+Peter is taller than Ross but is not taller than Mike. Mike is taller than Katy and Sam. Ross is not taller than Mike. Katy is not the tallest. Sam is taller than Ross but is shorter than Peter.	"taller(Mike,Katy)
+taller(Mike,Sam)
+not_taller(Peter,Mike)
+not_taller(Ross,Mike)
+taller(Peter,Ross)
+shorter(Sam,Peter)
+taller(Sam,Ross)
+not_tallest(Katy)"	Is Mike the tallest ?	yes
+Peter is taller than Ross but is not taller than Mike. Mike is taller than Katy and Sam. Katy is taller than Peter. Sam is shorter than Peter.	"taller(Mike,Katy)
+shorter(Sam,Peter)
+taller(Mike,Sam)
+taller(Katy,Peter)
+not_taller(Peter,Mike)
+taller(Peter,Ross)"	Is Mike the tallest ?	yes
+Peter is taller than Ross but is not taller than Mike. Mike is taller than Katy and Sam. Ross is not taller than Mike. Katy is taller than Peter but is not the tallest. Sam is taller than Ross.	"taller(Mike,Katy)
+taller(Mike,Sam)
+taller(Katy,Peter)
+not_taller(Peter,Mike)
+not_taller(Ross,Mike)
+taller(Peter,Ross)
+taller(Sam,Ross)
+not_tallest(Katy)"	Is Ross the shortest ?	yes
+Peter is taller than Ross but is not taller than Mike. Mike is taller than Katy and Sam. Ross is not taller than Mike. Katy is taller than Peter but is not the tallest. Sam is shorter than Peter.	"taller(Mike,Katy)
+shorter(Sam,Peter)
+taller(Mike,Sam)
+taller(Katy,Peter)
+not_taller(Peter,Mike)
+not_taller(Ross,Mike)
+taller(Peter,Ross)
+not_tallest(Katy)"	Is Mike the tallest ?	yes
+There are five friends Sachin, Kunal, Mohit, Amy and Rohan. Sachin is taller than Rohan. Mohit is the tallest. Amy is little shorter than Kunal and little taller than Sachin.	"taller(Amy,Sachin)
+shorter(Amy,Kunal)
+tallest(Mohit)
+taller(Sachin,Rohan)"	Is Mohit the tallest ?	yes
+There are five friends Sachin, Kunal, Mohit, Amy and Rohan. Sachin is shorter than Kunal. Rohan is shorter than Amy. Mohit is the tallest. Amy is little shorter than Kunal and little taller than Sachin.	"tallest(Mohit)
+shorter(Rohan,Amy)
+taller(Amy,Sachin)
+shorter(Amy,Kunal)
+shorter(Sachin,Kunal)"	Is Mohit the tallest ?	yes
+There are five friends Sachin, Kunal, Mohit, Amy and Rohan. Sachin is shorter than Kunal but taller than Rohan. Amy is little shorter than Kunal and little taller than Sachin. Mohit is taller than Sachin.	"taller(Sachin,Rohan)
+taller(Amy,Sachin)
+shorter(Amy,Kunal)
+taller(Mohit,Sachin)
+shorter(Sachin,Kunal)"	Is Rohan the shortest ?	yes
+There are five friends Sachin, Kunal, Mohit, Amy and Rohan. Sachin is shorter than Kunal but taller than Rohan. Mohit is the tallest. Amy is little taller than Sachin.	"shorter(Sachin,Kunal)
+tallest(Mohit)
+taller(Amy,Sachin)
+taller(Sachin,Rohan)"	Is Mohit the tallest ?	yes
+There are five friends Sachin, Kunal, Mohit, Amy and Rohan. Sachin is shorter than Kunal but taller than Rohan. Mohit is the tallest. Amy is little shorter than Kunal.	"shorter(Sachin,Kunal)
+tallest(Mohit)
+shorter(Amy,Kunal)
+taller(Sachin,Rohan)"	Is Mohit the tallest ?	yes
+There are five friends Sachin, Kunal, Mohit, Amy and Rohan. Sachin is shorter than Kunal but taller than Rohan. Mohit is taller than Amy. Amy is little shorter than Kunal and little taller than Sachin.	"taller(Mohit,Amy)
+taller(Sachin,Rohan)
+taller(Amy,Sachin)
+shorter(Amy,Kunal)
+shorter(Sachin,Kunal)"	Is Rohan the shortest ?	yes
+Peter, Ross, Katy, Sam and Mike are five friends. Ross is not taller than Katy. Katy is shorter than Peter, and is taller than Sam and Mike. Sam is not taller than Peter, but is shorter than Mike. Sam is the shortest in the group.	"shorter(Sam,Mike)
+shortest(Sam)
+taller(Katy,Sam)
+shorter(Katy,Peter)
+not_taller(Sam,Peter)
+not_taller(Ross,Katy)
+taller(Katy,Mike)"	Is Peter the tallest ?	yes
+Peter, Ross, Katy, Sam and Mike are five friends. Ross is taller than Mike. Katy is shorter than Peter, and is taller than Sam and Mike. Sam is not taller than Peter, but is shorter than Mike. Sam is the shortest in the group.	"shorter(Sam,Mike)
+shortest(Sam)
+taller(Katy,Sam)
+taller(Ross,Mike)
+shorter(Katy,Peter)
+not_taller(Sam,Peter)
+taller(Katy,Mike)"	Is Sam the shortest ?	yes
+Peter, Ross, Katy, Sam and Mike are five friends. Ross is taller than Mike but is not taller than Katy. Katy is taller than Sam and Mike. Sam is not taller than Peter, but is shorter than Mike. Sam is the shortest in the group.	"shorter(Sam,Mike)
+shortest(Sam)
+taller(Ross,Mike)
+taller(Katy,Mike)
+not_taller(Sam,Peter)
+not_taller(Ross,Katy)
+taller(Katy,Sam)"	Is Sam the shortest ?	yes
+Peter, Ross, Katy, Sam and Mike are five friends. Ross is taller than Mike but is not taller than Katy. Katy is shorter than Peter. Sam is not taller than Peter, but is shorter than Mike. Sam is the shortest in the group.	"shorter(Sam,Mike)
+shortest(Sam)
+taller(Ross,Mike)
+shorter(Katy,Peter)
+not_taller(Sam,Peter)
+not_taller(Ross,Katy)"	Is Sam the shortest ?	yes
+Peter, Ross, Katy, Sam and Mike are five friends. Ross is taller than Mike but is not taller than Katy. Katy is shorter than Peter, and is taller than Sam and Mike. Sam is shorter than Mike. Sam is the shortest in the group.	"shorter(Sam,Mike)
+shortest(Sam)
+taller(Katy,Sam)
+taller(Ross,Mike)
+shorter(Katy,Peter)
+taller(Katy,Mike)
+not_taller(Ross,Katy)"	Is Sam the shortest ?	yes
+Peter, Ross, Katy, Sam and Mike are five friends. Ross is taller than Mike but is not taller than Katy. Katy is shorter than Peter, and is taller than Sam and Mike. Sam is not taller than Peter. Sam is the shortest in the group.	"shortest(Sam)
+taller(Katy,Sam)
+taller(Ross,Mike)
+shorter(Katy,Peter)
+not_taller(Sam,Peter)
+taller(Katy,Mike)
+not_taller(Ross,Katy)"	Is Peter the tallest ?	yes
+Peter, Ross, Katy, Sam and Mike are five friends. Ross is taller than Mike but is not taller than Katy. Katy is shorter than Peter, and is taller than Sam and Mike.	"taller(Katy,Sam)
+taller(Ross,Mike)
+shorter(Katy,Peter)
+taller(Katy,Mike)
+not_taller(Ross,Katy)"	Is Peter the tallest ?	yes
+There are eight friends A, B, C, D, E, F, G and H. C is taller than B but shorter than D. E is taller than D but shorter than F. G is taller than F but shorter than H.	"shorter(E,F)
+shorter(C,D)
+taller(G,F)
+taller(C,B)
+shorter(G,H)
+taller(E,D)"	Is F taller than E ?	yes
+There are eight friends A, B, C, D, E, F, G and H. B is taller than A but shorter than C. E is taller than D but shorter than F. G is taller than F but shorter than H.	"shorter(E,F)
+taller(B,A)
+shorter(B,C)
+taller(G,F)
+shorter(G,H)
+taller(E,D)"	Is F taller than E ?	yes
+There are eight friends A, B, C, D, E, F, G and H. B is taller than A but shorter than C. C is taller than B but shorter than D. G is taller than F but shorter than H.	"taller(B,A)
+shorter(C,D)
+shorter(B,C)
+taller(G,F)
+taller(C,B)
+shorter(G,H)"	Is B taller than A ?	yes
+There are eight friends A, B, C, D, E, F, G and H. B is taller than A but shorter than C. C is taller than B but shorter than D. E is taller than D but shorter than F.	"shorter(E,F)
+taller(B,A)
+shorter(C,D)
+shorter(B,C)
+taller(C,B)
+taller(E,D)"	Is F taller than E ?	yes
+There are eight friends A, B, C, D, E, F, G and H. B is shorter than C. C is taller than B but shorter than D. E is taller than D but shorter than F. G is taller than F but shorter than H.	"shorter(E,F)
+shorter(C,D)
+shorter(B,C)
+taller(G,F)
+taller(C,B)
+shorter(G,H)
+taller(E,D)"	Is F shorter than H ?	yes
+There are eight friends A, B, C, D, E, F, G and H. B is taller than A. C is shorter than D. E is taller than D but shorter than F. G is taller than F but shorter than H.	"shorter(E,F)
+taller(B,A)
+shorter(C,D)
+taller(G,F)
+shorter(G,H)
+taller(E,D)"	Is F taller than E ?	yes
+There are eight friends A, B, C, D, E, F, G and H.  B is taller than A. C is taller than B. E is taller than D but shorter than F. G is taller than F but shorter than H.	"shorter(E,F)
+taller(B,A)
+taller(G,F)
+taller(C,B)
+shorter(G,H)
+taller(E,D)"	Is F taller than E ?	yes
+A, B, C, D and E are five friends. C is the tallest. D is shorter than B and taller than A. E is shorter than D.	"tallest(C)
+taller(D,A)
+shorter(D,B)
+shorter(E,D)"	Is C the tallest ?	yes
+A, B, C, D and E are five friends. A is shorter than B. C is the tallest. D is shorter than B and taller than A.	"shorter(A,B)
+tallest(C)
+taller(D,A)
+shorter(D,B)"	Is C the tallest ?	yes
+A, B, C, D and E are five friends. A is shorter than B but taller than E. D is shorter than B and taller than C.	"shorter(A,B)
+taller(D,C)
+taller(A,E)
+shorter(D,B)"	Is B the tallest ?	yes
+A, B, C, D and E are five friends. A is shorter than B but taller than E. C is the tallest. D is taller than A.	"tallest(C)
+taller(D,A)
+shorter(A,B)
+taller(A,E)"	Is C the tallest ?	yes
+A, B, C, D and E are five friends. A is shorter than B but taller than E. C is the tallest. D is shorter than B.	"tallest(C)
+shorter(D,B)
+shorter(A,B)
+taller(A,E)"	Is C the tallest ?	yes
+Harish is shorter than Suresh. Manish is taller than Raghu. Harish is taller than Anil.	"taller(Harish,Anil)
+taller(Manish,Raghu)
+shorter(Harish,Suresh)"	Is Raghu shorter than Manish ?	yes
+Harish is taller than Manish. Manish is shorter than Anil but taller than Raghu. Suresh is taller than Anil.	"shorter(Manish,Anil)
+taller(Suresh,Anil)
+taller(Manish,Raghu)
+taller(Harish,Manish)"	Is Raghu the shortest ?	yes
+Harish is taller than Manish but shorter than Suresh. Manish is taller than Raghu. Harish is taller than Anil.	"taller(Harish,Anil)
+taller(Manish,Raghu)
+taller(Harish,Manish)
+shorter(Harish,Suresh)"	Is Suresh the tallest ?	yes
+Harish is taller than Manish but shorter than Suresh. Manish is shorter than Anil. Harish is taller than Anil.	"shorter(Manish,Anil)
+taller(Harish,Anil)
+taller(Harish,Manish)
+shorter(Harish,Suresh)"	Is Manish the shortest ?	yes
+Harish is taller than Manish but shorter than Suresh. Manish is shorter than Anil but taller than Raghu.	"shorter(Manish,Anil)
+taller(Manish,Raghu)
+taller(Harish,Manish)
+shorter(Harish,Suresh)"	Is Raghu the shortest ?	yes
+There are seven friends A, B, C, D, E, F and G.  C is taller than B. D is taller than C but shorter than E. E is taller than D but shorter than F. F is taller than E. G is taller than F. A is shorter than C.	"shorter(A,C)
+shorter(E,F)
+taller(D,C)
+shorter(D,E)
+taller(G,F)
+taller(F,E)
+taller(C,B)
+taller(E,D)"	Is G the tallest ?	yes
+There are seven friends A, B, C, D, E, F and G. B is taller than A. D is taller than C but shorter than E. E is taller than D but shorter than F. F is taller than E. G is taller than F.	"shorter(E,F)
+taller(B,A)
+taller(D,C)
+shorter(D,E)
+taller(G,F)
+taller(F,E)
+taller(E,D)"	Is F taller than E ?	yes
+There are seven friends A, B, C, D, E, F and G. B is taller than A. C is taller than B. D is shorter than E. E is taller than D but shorter than F. F is taller than E. G is taller than F.	"shorter(E,F)
+taller(B,A)
+shorter(D,E)
+taller(G,F)
+taller(F,E)
+taller(C,B)
+taller(E,D)"	Is F taller than E ?	yes
+There are seven friends A, B, C, D, E, F and G. B is taller than A. C is taller than B. D is taller than C. F is taller than E. G is taller than F.	"taller(D,C)
+taller(B,A)
+taller(G,F)
+taller(F,E)
+taller(C,B)"	Is F taller than E ?	yes
+There are seven friends A, B, C, D, E, F and G. B is taller than A. C is taller than B. D is taller than C but shorter than E. E is shorter than F. F is taller than E. G is taller than F.	"shorter(E,F)
+taller(D,C)
+taller(B,A)
+shorter(D,E)
+taller(G,F)
+taller(F,E)
+taller(C,B)"	Is A the shortest ?	yes
+There are seven friends A, B, C, D, E, F and G. B is taller than A. C is taller than B. D is taller than A. E is taller than D but shorter than F. G is taller than F.	"shorter(E,F)
+taller(B,A)
+taller(G,F)
+taller(C,B)
+taller(D,A)
+taller(E,D)"	Is A the shortest ?	yes
+There are seven friends A, B, C, D, E, F and G. B is taller than A. C is taller than B. E is taller than D but shorter than F.	"shorter(E,F)
+taller(E,D)
+taller(B,A)
+taller(C,B)"	Is F taller than E ?	yes
+Pratima is taller than Shrikant. Subhash is taller than Nilima but shorter than Heramb. Nilima is taller than Shrikant.	"taller(Subhash,Nilima)
+shorter(Subhash,Heramb)
+taller(Nilima,Shrikant)
+taller(Pratima,Shrikant)"	Is Shrikant the shortest ?	yes
+Shrikant is shorter than Nilima. Subhash is taller than Nilima but shorter than Heramb. Nilima is taller than Pratima.	"taller(Subhash,Nilima)
+shorter(Subhash,Heramb)
+shorter(Shrikant,Nilima)
+taller(Nilima,Pratima)"	Is Heramb the tallest ?	yes
+Shrikant is shorter than Nilima. Pratima is taller than Shrikant. Subhash is shorter than Heramb. Nilima is taller than Pratima.	"shorter(Shrikant,Nilima)
+shorter(Subhash,Heramb)
+taller(Nilima,Pratima)
+taller(Pratima,Shrikant)"	Is Pratima shorter than Nilima ?	yes
+Shrikant is shorter than Nilima. Pratima is taller than Shrikant. Subhash is taller than Nilima but shorter than Heramb.	"taller(Subhash,Nilima)
+shorter(Subhash,Heramb)
+shorter(Shrikant,Nilima)
+taller(Pratima,Shrikant)"	Is Shrikant the shortest ?	yes
+Salim is not taller than Ahmed but taller than Akbar. Sohan is not taller than Salim.	"not_taller(Salim,Ahmed)
+taller(Salim,Akbar)
+not_taller(Sohan,Salim)"	Is Ahmed the tallest ?	yes
+Ahmed is taller than Salim. Salim is taller than Akbar. Sohan is not taller than Ahmed but taller than Akbar.	"taller(Ahmed,Salim)
+taller(Salim,Akbar)
+taller(Sohan,Akbar)
+not_taller(Sohan,Ahmed)"	Is Akbar the shortest ?	yes
+Ahmed is taller than Salim. Salim is not taller than Ahmed. Sohan is not taller than Salim but taller than Akbar.	"not_taller(Salim,Ahmed)
+taller(Ahmed,Salim)
+taller(Sohan,Akbar)
+not_taller(Sohan,Salim)"	Is Akbar the shortest ?	yes
+Ahmed is taller than Salim. Salim is not taller than Ahmed but taller than Akbar. Sohan is taller than Akbar.	"not_taller(Salim,Ahmed)
+taller(Ahmed,Salim)
+taller(Salim,Akbar)
+taller(Sohan,Akbar)"	Is Akbar the shortest ?	yes
+Ahmed is taller than Salim. Salim is not taller than Ahmed but taller than Akbar. Sohan is not taller than Salim.	"not_taller(Salim,Ahmed)
+taller(Ahmed,Salim)
+taller(Salim,Akbar)
+not_taller(Sohan,Salim)"	Is Ahmed the tallest ?	yes
+C is taller than A. D is taller than F but shorter than B.	"taller(D,F)
+shorter(D,B)
+taller(C,A)"	Is B taller than F ?	yes
+A is taller than B. C is taller than B. D is taller than F but shorter than B.	"shorter(D,B)
+taller(D,F)
+taller(A,B)
+taller(C,B)"	Is F the shortest ?	yes
+A is taller than B. C is taller than B. D is taller than F but shorter than C.	"shorter(D,C)
+taller(D,F)
+taller(A,B)
+taller(C,B)"	Is A taller than B ?	yes
+A is little shorter than K. S is shorter than K.	"shorter(S,K)
+shorter(A,K)"	Is K the tallest ?	yes
+A is not taller than E. C is taller than A. D is not taller than B. C is taller than E.	"taller(C,E)
+not_taller(D,B)
+taller(C,A)
+not_taller(A,E)"	Is E taller than A ?	yes
+D is taller than C and E. C is taller than A. D is not taller than B. C is taller than E.	"taller(C,A)
+taller(D,C)
+taller(D,E)
+taller(C,E)
+not_taller(D,B)"	Is B the tallest ?	yes
+D is taller than C and E. A is not taller than E. D is not taller than B.	"not_taller(D,B)
+taller(D,E)
+taller(D,C)
+not_taller(A,E)"	Is B the tallest ?	yes
+D is taller than C and E. A is not taller than E. C is taller than A. D is not taller than B.	"taller(C,A)
+taller(D,C)
+taller(D,E)
+not_taller(A,E)
+not_taller(D,B)"	Is A the shortest ?	yes
+Serkan, Edda, Piril, Melo and Syed are five friends. Edda is not taller than Piril. Piril is shorter than Serkan and is taller than Melo and Syed. Melo is the shortest.	"taller(Piril,Melo)
+shortest(Melo)
+taller(Piril,Syed)
+shorter(Piril,Serkan)
+not_taller(Edda,Piril)"	Is Melo the shortest ?	yes
+Serkan, Edda, Piril, Melo and Syed are five friends. Edda is taller than Syed. Piril is shorter than Serkan and is taller than Melo and Syed. Melo is the shortest.	"taller(Edda,Syed)
+taller(Piril,Melo)
+shortest(Melo)
+taller(Piril,Syed)
+shorter(Piril,Serkan)"	Is Melo the shortest ?	yes
+Serkan, Edda, Piril, Melo and Syed are five friends. Edda is taller than Syed but is not taller than Piril. Edda is shorter than Serkan. Melo is the shortest.	"shortest(Melo)
+taller(Edda,Syed)
+shorter(Edda,Serkan)
+not_taller(Edda,Piril)"	Is Melo the shortest ?	yes
+Serkan, Edda, Piril, Melo and Syed are five friends. Edda is taller than Syed but is not taller than Piril. Piril is shorter than Serkan and is taller than Melo and Syed.	"taller(Edda,Syed)
+taller(Piril,Melo)
+taller(Piril,Syed)
+shorter(Piril,Serkan)
+not_taller(Edda,Piril)"	Is Serkan the tallest ?	yes
+Selin is shorter than Kusum. Serkan is not taller than Kusum but taller than Kalpna. Kalpna is shorter than Kusum.	"shorter(Selin,Kusum)
+not_taller(Serkan,Kusum)
+taller(Serkan,Kalpna)
+shorter(Kalpna,Kusum)"	Is Kusum the tallest ?	yes
+Selin is taller than Serkan. Serkan is not taller than Selin but taller than Kalpna. Kalpna is shorter than Kusum.	"not_taller(Serkan,Selin)
+taller(Serkan,Kalpna)
+taller(Selin,Serkan)
+shorter(Kalpna,Kusum)"	Is Kalpna the shortest ?	yes
+Selin is taller than Serkan but shorter than Kusum. Serkan is not taller than Selin. Kalpna is shorter than Kusum.	"shorter(Selin,Kusum)
+not_taller(Serkan,Selin)
+taller(Selin,Serkan)
+shorter(Kalpna,Kusum)"	Is Kusum the tallest ?	yes
+Selin is taller than Serkan but shorter than Kusum. Selin is taller than Kalpna.	"shorter(Selin,Kusum)
+taller(Selin,Serkan)
+taller(Selin,Kalpna)"	Is Kusum the tallest ?	yes
+Serkan is shorter than Piril. Edda is not taller than Megan but taller than Kunal. Megan is taller than Piril.	"taller(Edda,Kunal)
+taller(Megan,Piril)
+not_taller(Edda,Megan)
+shorter(Serkan,Piril)"	Is Megan the tallest ?	yes
+Serkan is taller than Edda. Edda is not taller than Megan but taller than Kunal. Megan is taller than Piril.	"taller(Edda,Kunal)
+taller(Megan,Piril)
+not_taller(Edda,Megan)
+taller(Serkan,Edda)"	Is Megan taller than Piril ?	yes
+Serkan is taller than Edda but shorter than Piril. Edda is taller than Kunal. Megan is taller than Serkan.	"taller(Megan,Serkan)
+taller(Edda,Kunal)
+shorter(Serkan,Piril)
+taller(Serkan,Edda)"	Is Kunal the shortest ?	yes
+Serkan is taller than Edda but shorter than Piril and Edda is not taller than Megan but taller than Kunal.	"taller(Edda,Kunal)
+not_taller(Edda,Megan)
+shorter(Serkan,Piril)
+taller(Serkan,Edda)"	Is Kunal the shortest ?	yes
+Anil is not taller than Sohan. Salim is shorter than Sohan but taller than Manick.	"shorter(Salim,Sohan)
+not_taller(Anil,Sohan)
+taller(Salim,Manick)"	Is Sohan the tallest ?	yes
+Anil is taller than Manick but not taller than Sohan. Salim is taller than Manick.	"not_taller(Anil,Sohan)
+taller(Anil,Manick)
+taller(Salim,Manick)"	Is Manick the shortest ?	yes
+Anil is taller than Manick but not taller than Sohan. Salim is shorter than Anil.	"not_taller(Anil,Sohan)
+taller(Anil,Manick)
+shorter(Salim,Anil)"	Is Sohan the tallest ?	yes
+Sohan is shorter than Bob. Serkan is taller than John who is shorter than Sohan. Sohan is shorter than Serkan.	"taller(Serkan,John)
+shorter(Sohan,Bob)
+shorter(Sohan,Serkan)
+shorter(John,Sohan)"	Is John the shortest ?	yes
+Serkan is taller than Sohan. Serkan is taller than John who is shorter than Sohan. Bob is shorter than Serkan.	"taller(Serkan,John)
+shorter(Bob,Serkan)
+taller(Serkan,Sohan)
+shorter(John,Sohan)"	Is Serkan the tallest ?	yes
+Serkan is taller than Sohan and Sohan is shorter than Bob. John is shorter than Sohan.	"shorter(Sohan,Bob)
+taller(Serkan,Sohan)
+shorter(John,Sohan)"	Is John the shortest ?	yes
+Serkan is taller than Sohan and Sohan is shorter than Bob. Serkan is taller than John. Bob is shorter than Serkan.	"taller(Serkan,John)
+shorter(Bob,Serkan)
+taller(Serkan,Sohan)
+shorter(Sohan,Bob)"	Is Serkan the tallest ?	yes
+Serkan is taller than Sohan and Sohan is shorter than Bob. Serkan is taller than John who is shorter than Sohan.	"taller(Serkan,John)
+taller(Serkan,Sohan)
+shorter(Sohan,Bob)
+shorter(John,Sohan)"	Is John the shortest ?	yes
+Pinky is shorter than Reena. Riya is taller than Sheela who is shorter than Priya. Reena is taller than Riya who is taller than Pinky.	"shorter(Sheela,Priya)
+taller(Riya,Pinky)
+shorter(Pinky,Reena)
+taller(Reena,Riya)
+taller(Riya,Sheela)"	Is Sheela shorter than Reena ?	yes
+Pinky is taller than Priya but shorter than Reena. Sheela is shorter than Pinky. Reena is taller than Riya who is taller than Pinky.	"taller(Pinky,Priya)
+taller(Riya,Pinky)
+shorter(Sheela,Pinky)
+shorter(Pinky,Reena)
+taller(Reena,Riya)"	Is Reena the tallest ?	yes
+Pinky is taller than Priya but shorter than Reena. Riya is taller than Sheela. Reena is taller than Riya who is taller than Pinky.	"taller(Pinky,Priya)
+shorter(Pinky,Reena)
+taller(Riya,Pinky)
+taller(Reena,Riya)
+taller(Riya,Sheela)"	Is Reena the tallest ?	yes
+Pinky is taller than Priya but shorter than Reena. Riya is taller than Sheela who is shorter than Priya. Riya is taller than Pinky.	"taller(Riya,Pinky)
+shorter(Sheela,Priya)
+taller(Pinky,Priya)
+shorter(Pinky,Reena)
+taller(Riya,Sheela)"	Is Sheela the shortest ?	yes
+Pinky is taller than Priya but shorter than Reena. Riya is taller than Sheela who is shorter than Priya. Reena is taller than Riya.	"shorter(Sheela,Priya)
+taller(Pinky,Priya)
+shorter(Pinky,Reena)
+taller(Reena,Riya)
+taller(Riya,Sheela)"	Is Sheela the shortest ?	yes
+Manu is taller than Danu. Minu is taller than Kanu and Manu. Kanu is not taller than Hanu. Danu is not the tallest.	"taller(Minu,Kanu)
+not_taller(Kanu,Hanu)
+taller(Manu,Danu)
+taller(Minu,Manu)
+not_tallest(Danu)"	Is Manu taller than Danu ?	yes
+Manu is taller than Hanu. Minu is taller than Kanu and Manu. Kanu is not taller than Hanu. Danu is not the tallest.	"taller(Minu,Kanu)
+taller(Manu,Hanu)
+not_taller(Kanu,Hanu)
+taller(Minu,Manu)
+not_tallest(Danu)"	Is Minu the tallest ?	yes
+Manu is taller than Hanu but not taller than Danu. Minu is taller than Kanu and Manu. Danu is not the tallest.	"taller(Minu,Kanu)
+not_taller(Manu,Danu)
+taller(Manu,Hanu)
+taller(Minu,Manu)
+not_tallest(Danu)"	Is Minu the tallest ?	yes
+Manu is taller than Hanu but not taller than Danu. Minu is taller than Kanu and Manu. Kanu is not taller than Hanu.	"taller(Minu,Manu)
+taller(Minu,Kanu)
+taller(Manu,Hanu)
+not_taller(Manu,Danu)
+not_taller(Kanu,Hanu)"	Is Kanu the shortest ?	yes
+Selin is shorter than Pinky but taller than Sheetal. Riya is shorter than Selin.	"shorter(Riya,Selin)
+taller(Selin,Sheetal)
+shorter(Selin,Pinky)"	Is Pinky the tallest ?	yes
+Riya is shorter than Sheetal. Selin is shorter than Pinky.	"shorter(Selin,Pinky)
+shorter(Riya,Sheetal)"	Is Riya shorter than Sheetal ?	yes
+Rebecca is taller than Edda and John. Sara is taller than John but shorter than Rebecca. Beverly is shorter than Rebecca and taller than Sara.	"taller(Rebecca,John)
+taller(Beverly,Sara)
+taller(Rebecca,Edda)
+shorter(Beverly,Rebecca)
+taller(Sara,John)
+shorter(Sara,Rebecca)"	Is Rebecca the tallest ?	yes
+John is taller than Edda. Sara is taller than John but shorter than Rebecca. Beverly is shorter than Rebecca.	"shorter(Beverly,Rebecca)
+taller(John,Edda)
+shorter(Sara,Rebecca)
+taller(Sara,John)"	Is Rebecca the tallest ?	yes
+John is taller than Edda. Rebecca is taller than Edda and John. Beverly is shorter than Rebecca and taller than Sara.	"taller(Rebecca,John)
+taller(Beverly,Sara)
+taller(Rebecca,Edda)
+shorter(Beverly,Rebecca)
+taller(John,Edda)"	Is Rebecca the tallest ?	yes
+John is taller than Edda. Rebecca is taller than Edda and John. Sara is taller than John.	"taller(Rebecca,John)
+taller(John,Edda)
+taller(Sara,John)
+taller(Rebecca,Edda)"	Is Edda the shortest ?	yes
+John is taller than Edda. Rebecca is taller than Edda and John. Sara is taller than John but shorter than Rebecca. Beverly is shorter than Rebecca.	"taller(Rebecca,John)
+shorter(Sara,Rebecca)
+taller(Rebecca,Edda)
+shorter(Beverly,Rebecca)
+taller(Sara,John)
+taller(John,Edda)"	Is Rebecca the tallest ?	yes
+Tom is shorter than Mary. Mary is shorter than Sara but taller than Tom. Mike is taller than John but shorter than Katy.	"taller(Mary,Tom)
+shorter(Mary,Sara)
+shorter(Mike,Katy)
+taller(Mike,John)
+shorter(Tom,Mary)"	Is Tom shorter than Sara ?	yes
+John is shorter than Mary and Katy. Tom is taller than Katy. Mary is shorter than Sara but taller than Tom. Mike is taller than John but shorter than Katy.	"taller(Mary,Tom)
+shorter(Mary,Sara)
+taller(Tom,Katy)
+shorter(John,Mary)
+shorter(John,Katy)
+shorter(Mike,Katy)
+taller(Mike,John)"	Is John the shortest ?	yes
+John is shorter than Mary and Katy. Tom is shorter than Mary. Mary is shorter than Sara but taller than Tom. Mike is taller than John but shorter than Katy.	"taller(Mary,Tom)
+shorter(Mary,Sara)
+shorter(John,Mary)
+shorter(John,Katy)
+shorter(Mike,Katy)
+taller(Mike,John)
+shorter(Tom,Mary)"	Is Tom shorter than Sara ?	yes
+Tom is shorter than Mary but taller than Katy. Tom is taller than John. Mike is shorter than Katy.	"shorter(Tom,Mary)
+taller(Tom,John)
+taller(Tom,Katy)
+shorter(Mike,Katy)"	Is Mary the tallest ?	yes
+John is shorter than Mary. Tom is shorter than Mary but taller than Katy. Mary is shorter than Sara.	"shorter(Tom,Mary)
+taller(Tom,Katy)
+shorter(John,Mary)
+shorter(Mary,Sara)"	Is Sara the tallest ?	yes
+Bipul is taller than Barun. Krishna is not taller than Bipul but is taller than Barun.	"not_taller(Krishna,Bipul)
+taller(Krishna,Barun)
+taller(Bipul,Barun)"	Is Barun the shortest ?	yes
+Barun is taller than Sanjay. Krishna is not taller than Bipul.	"taller(Barun,Sanjay)
+not_taller(Krishna,Bipul)"	Is Bipul taller than Krishna ?	yes
+Barun is taller than Sanjay. Bipul is taller than Barun. Krishna is taller than Barun.	"taller(Barun,Sanjay)
+taller(Krishna,Barun)
+taller(Bipul,Barun)"	Is Sanjay the shortest ?	yes
+Barun is taller than Sanjay. Bipul is taller than Barun. Krishna is not taller than Bipul.	"taller(Barun,Sanjay)
+not_taller(Krishna,Bipul)
+taller(Bipul,Barun)"	Is Bipul the tallest ?	yes
+Dhoni is not taller than Raina. Rohit is shorter than Dhoni but taller than Shikhar. Virat is taller than Rohit.	"taller(Virat,Rohit)
+not_taller(Dhoni,Raina)
+taller(Rohit,Shikhar)
+shorter(Rohit,Dhoni)"	Is Shikhar the shortest ?	yes
+Dhoni is taller than Virat. Rohit is shorter than Dhoni but taller than Shikhar. Virat is taller than Rohit. Raina is taller than Virat.	"taller(Raina,Virat)
+taller(Dhoni,Virat)
+shorter(Rohit,Dhoni)
+taller(Virat,Rohit)
+taller(Rohit,Shikhar)"	Is Shikhar the shortest ?	yes
+Dhoni is taller than Virat but not taller than Raina. Rohit is taller than Shikhar. Virat is taller than Shikhar.	"taller(Dhoni,Virat)
+taller(Virat,Shikhar)
+not_taller(Dhoni,Raina)
+taller(Rohit,Shikhar)"	Is Shikhar the shortest ?	yes
+Dhoni is taller than Virat but not taller than Raina. Rohit is shorter than Dhoni.	"taller(Dhoni,Virat)
+not_taller(Dhoni,Raina)
+shorter(Rohit,Dhoni)"	Is Raina the tallest ?	yes
+Dhoni is taller than Virat but not taller than Raina. Rohit is shorter than Dhoni but taller than Shikhar.	"taller(Dhoni,Virat)
+not_taller(Dhoni,Raina)
+taller(Rohit,Shikhar)
+shorter(Rohit,Dhoni)"	Is Raina the tallest ?	yes
+A is not taller than E. C is taller than A. C is shorter than E. D is not taller than B.	"shorter(C,E)
+not_taller(D,B)
+taller(C,A)
+not_taller(A,E)"	Is E taller than A ?	yes
+D is taller than C. C is taller than A. C is shorter than E. D is not taller than B.	"shorter(C,E)
+not_taller(D,B)
+taller(C,A)
+taller(D,C)"	Is A the shortest ?	yes
+D is taller than C and E. A is not taller than E. C is shorter than E. D is not taller than B.	"taller(D,C)
+taller(D,E)
+not_taller(A,E)
+shorter(C,E)
+not_taller(D,B)"	Is B the tallest ?	yes
+D is taller than C and E. A is not taller than E. C is taller than A. D is not taller than B.	"taller(C,A)
+taller(D,C)
+taller(D,E)
+not_taller(A,E)
+not_taller(D,B)"	Is A the shortest ?	yes
+D is taller than C and E. A is not taller than E. C is shorter than E.	"shorter(C,E)
+taller(D,E)
+taller(D,C)
+not_taller(A,E)"	Is D the tallest ?	yes
+Suresh is shorter than Neeraj but taller than Umesh.	"shorter(Suresh,Neeraj)
+taller(Suresh,Umesh)"	Is Umesh the shortest ?	yes
+Umesh is taller than Satish. Suresh is taller than Umesh who is shorter than Neeraj.	"taller(Suresh,Umesh)
+shorter(Umesh,Neeraj)
+taller(Umesh,Satish)"	Is Satish the shortest ?	yes
+Umesh is taller than Satish. Suresh is shorter than Neeraj.	"shorter(Suresh,Neeraj)
+taller(Umesh,Satish)"	Is Neeraj taller than Suresh ?	yes
+Keshav is shorter than Nitin. Nitin is taller than Kishan but shorter than Amar. Vijay is taller than Kishan.	"taller(Vijay,Kishan)
+shorter(Keshav,Nitin)
+taller(Nitin,Kishan)
+shorter(Nitin,Amar)"	Is Nitin shorter than Amar ?	yes
+Keshav is taller than Vijay. Nitin is taller than Kishan but shorter than Amar. Vijay is taller than Kishan.	"taller(Vijay,Kishan)
+taller(Nitin,Kishan)
+shorter(Nitin,Amar)
+taller(Keshav,Vijay)"	Is Kishan the shortest ?	yes
+Keshav is taller than Vijay but shorter than Nitin. Nitin is shorter than Amar but taller than Kishan.	"shorter(Keshav,Nitin)
+taller(Nitin,Kishan)
+shorter(Nitin,Amar)
+taller(Keshav,Vijay)"	Is Amar the tallest ?	yes
+Keshav is taller than Vijay but shorter than Nitin. Nitin is taller than Kishan.	"shorter(Keshav,Nitin)
+taller(Nitin,Kishan)
+taller(Keshav,Vijay)"	Is Nitin the tallest ?	yes
+Keshav is taller than Vijay but shorter than Nitin. Nitin is taller than Kishan but shorter than Amar.	"shorter(Keshav,Nitin)
+taller(Nitin,Kishan)
+shorter(Nitin,Amar)
+taller(Keshav,Vijay)"	Is Amar the tallest ?	yes
+Among P, Q, R, S and T. S is shorter than P and Q. T is shorter than S.	"shorter(S,Q)
+shorter(S,P)
+shorter(T,S)"	Is T the shortest ?	yes
+Among P, Q, R, S and T. Q is shorter than T and S.  P is shorter than Q and R.	"shorter(P,Q)
+shorter(Q,S)
+shorter(Q,T)
+shorter(P,R)"	Is P the shortest ?	yes
+Among P, Q, R, S and T. Q is shorter than T. S is shorter than P and Q. P is shorter than Q and R.	"shorter(S,Q)
+shorter(P,Q)
+shorter(Q,T)
+shorter(S,P)
+shorter(P,R)"	Is S the shortest ?	yes
+Hardik is shorter than Susheel. Niza is taller than Harry but shorter than Susheel. Susheel is shorter than Rohan.	"shorter(Susheel,Rohan)
+shorter(Hardik,Susheel)
+taller(Niza,Harry)
+shorter(Niza,Susheel)"	Is Rohan the tallest ?	yes
+Rohan is taller than Hardik. Niza is taller than Harry but shorter than Hardik. Susheel is shorter than Rohan.	"shorter(Susheel,Rohan)
+taller(Rohan,Hardik)
+taller(Niza,Harry)
+shorter(Niza,Hardik)"	Is Rohan the tallest ?	yes
+Rohan is taller than Hardik who is shorter than Susheel. Niza is shorter than Rohan. Susheel is shorter than Rohan.	"shorter(Susheel,Rohan)
+taller(Rohan,Hardik)
+shorter(Hardik,Susheel)
+shorter(Niza,Rohan)"	Is Rohan the tallest ?	yes
+Rohan is taller than Hardik who is shorter than Susheel. Niza is taller than Harry but shorter than Hardik.	"taller(Rohan,Hardik)
+taller(Niza,Harry)
+shorter(Hardik,Susheel)
+shorter(Niza,Hardik)"	Is Harry the shortest ?	yes
+Garima is not taller than Reena. Tanya is taller than Garima. Garima is shorter than Anu. Tanya is shorter than Anu.	"taller(Tanya,Garima)
+shorter(Tanya,Anu)
+shorter(Garima,Anu)
+not_taller(Garima,Reena)"	Is Garima the shortest ?	yes
+Garima is taller than Sarita. Tanya is taller than Garima. Garima is shorter than Anu. Tanya is shorter than Anu but taller than Reena.	"taller(Tanya,Garima)
+taller(Tanya,Reena)
+shorter(Garima,Anu)
+taller(Garima,Sarita)
+shorter(Tanya,Anu)"	Is Anu the tallest ?	yes
+Garima is taller than Sarita but not taller than Reena. Garima is shorter than Anu. Tanya is taller than Reena.	"taller(Garima,Sarita)
+shorter(Garima,Anu)
+taller(Tanya,Reena)
+not_taller(Garima,Reena)"	Is Sarita the shortest ?	yes
+Garima is taller than Sarita but not taller than Reena. Tanya is taller than Garima.  Tanya is taller than Reena.	"taller(Garima,Sarita)
+taller(Tanya,Garima)
+taller(Tanya,Reena)
+not_taller(Garima,Reena)"	Is Sarita the shortest ?	yes
+Garima is taller than Sarita but not taller than Reena. Tanya is taller than Garima. Garima is shorter than Anu.	"taller(Garima,Sarita)
+taller(Tanya,Garima)
+shorter(Garima,Anu)
+not_taller(Garima,Reena)"	Is Sarita the shortest ?	yes
+Amit is shorter than Shruti. Bharat is taller than Chander who is not taller than Tanu. Bharat is shorter than Tanu.	"shorter(Bharat,Tanu)
+taller(Bharat,Chander)
+shorter(Amit,Shruti)
+not_taller(Chander,Tanu)"	Is Amit shorter than Shruti ?	yes
+Amit is taller than Tanu. Bharat is taller than Chander who is not taller than Tanu.	"not_taller(Chander,Tanu)
+taller(Bharat,Chander)
+taller(Amit,Tanu)"	Is Chander the shortest ?	yes
+Amit is taller than Tanu but shorter than Shruti. Chander is not taller than Tanu. Bharat is shorter than Tanu.	"shorter(Bharat,Tanu)
+not_taller(Chander,Tanu)
+shorter(Amit,Shruti)
+taller(Amit,Tanu)"	Is Shruti the tallest ?	yes
+Amit is taller than Tanu but shorter than Shruti. Bharat is taller than Chander. Bharat is shorter than Amit.	"shorter(Bharat,Amit)
+taller(Bharat,Chander)
+shorter(Amit,Shruti)
+taller(Amit,Tanu)"	Is Shruti the tallest ?	yes
+Amit is taller than Tanu but shorter than Shruti. Bharat is taller than Chander who is not taller than Tanu.	"not_taller(Chander,Tanu)
+taller(Bharat,Chander)
+shorter(Amit,Shruti)
+taller(Amit,Tanu)"	Is Chander the shortest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are taller than A. D is taller than B and shorter than C. E is taller than F.	"taller(E,F)
+shorter(D,C)
+taller(B,A)
+taller(C,A)
+taller(D,B)"	Is E taller than F ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F. D is taller than B and shorter than C. A is shorter than F. E is taller than F.	"taller(E,F)
+shorter(D,C)
+shorter(B,F)
+shorter(C,F)
+taller(D,B)
+shorter(A,F)"	Is E the tallest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F but taller than A. D is shorter than C. E is taller than F.	"shorter(D,C)
+taller(C,A)
+taller(B,A)
+shorter(C,F)
+shorter(B,F)
+taller(E,F)"	Is E the tallest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F but taller than A. D is taller than B. E is taller than F.	"taller(C,A)
+taller(B,A)
+shorter(C,F)
+taller(D,B)
+shorter(B,F)
+taller(E,F)"	Is A the shortest ?	yes
+A, B, C, D, E and F are six students in a class. B and C are shorter than F but taller than A. D is taller than B and shorter than C. E is taller than C.	"shorter(D,C)
+taller(C,A)
+taller(B,A)
+shorter(C,F)
+taller(E,C)
+taller(D,B)
+shorter(B,F)"	Is A the shortest ?	yes

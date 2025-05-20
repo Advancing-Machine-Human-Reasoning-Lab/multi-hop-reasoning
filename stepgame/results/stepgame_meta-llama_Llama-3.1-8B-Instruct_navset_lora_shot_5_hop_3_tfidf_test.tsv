@@ -1,0 +1,835 @@
+text	question	label	output
+K is diagonally above Z to the left at a 45 degree angle. K is below G. U is slightly off center to the top left and S is slightly off center to the bottom right. C is positioned right to I. K and U are in a vertical line with U below K.	What is the relation of the agent S to the agent U?	lower-right	"
+upper-left(K,Z)
+above(G,K)
+upper-left(U,S)
+right(C,I)
+below(U,K)"
+B is north east of Z. X is on the top side to P. Z is over there and S is on the top of it. X is to the bottom right of Z. J is to the right of Z horizontally. E is at the 12 o'clock position relative to I.	What is the relation of the agent X to the agent Z?	lower-right	"
+upper-right(B,Z)
+above(X,P)
+above(S,Z)
+lower-right(X,Z)
+right(J,Z)
+above(E,I)"
+F is over P. The object F is upper and slightly to the left of the object O. L is on the right side and below P. The object labeled P is positioned to the left of the object labeled U. Q is upper right to Y.	What is the relation of the agent U to the agent O?	overlap	"
+above(F,P)
+upper-left(F,O)
+right(L,P)
+below(L,P)
+left(P,U)
+upper-right(Q,Y)"
+The object G and O are there. The object O is above and slightly to the left of the object G. H is at O's 6 o'clock. O is there and E is at the 5 position of a clock face. H is at the bottom and B is on the top. H is directly south west of X. F is at P's 3 o'clock.	What is the relation of the agent O to the agent H?	above	"
+above(O,G)
+right(G,O)
+below(H,O)
+right(O,E)
+above(B,H)
+left(H,X)
+above(X,H)
+right(P,F)"
+C is above and to the right of U. B is on the right side to J. Z is to the right of U. E and X are parallel, and E is over X. J is over there and Z is directly below it. B is on the left side of and below F.	What is the relation of the agent J to the agent Z?	above	"
+above(C,U)
+right(C,U)
+right(B,J)
+right(Z,U)
+above(E,X)
+above(J,Z)
+left(B,F)
+below(B,F)"
+F and H are parallel, and F is over H. Object P is below object R and to the right of it, too. Object T is above object H and to the left of it, too. F is above W and to the left of W. G is over there and W is directly above it.	What is the relation of the agent W to the agent H?	right	"
+above(F,H)
+left(F,H)
+below(P,R)
+right(P,R)
+above(T,H)
+left(T,H)
+above(F,W)
+left(F,W)
+above(W,G)"
+E is at a 45 degree angle to C, in the upper righthand corner. C is diagonally left and below R. D and H are in a horizontal line with H on the right. I is positioned above and to the left of Z. Z is lower right of E.	What is the relation of the agent Z to the agent C?	right	"
+left(D,H)
+left(C,R)
+below(C,R)
+above(I,Z)
+left(I,Z)
+below(Z,E)
+right(Z,E)
+"
+L is at Q’s 9 o'clock. V is to the upper left of D. Q is below and to the left of V. L is on the left side to X. O is above L and to the left of L. P is below W with a small gap between them.	What is the relation of the agent L to the agent Q?	left	"
+left(L,Q)
+upper-left(V,D)
+lower-left(Q,V)
+left(L,X)
+upper-left(O,L)
+below(P,W)"
+Object J is above object F and to the right of it, too. J is positioned down and to the left of E. The object I and R are there. The object I is below and slightly to the right of the object R. Y is south west of T. Y is at a 45 degree angle to Q, in the lower lefthand corner. Y is directly south west of E.	What is the relation of the agent J to the agent Y?	overlap	"
+above(J,F)
+right(J,F)
+below(J,E)
+left(J,E)
+below(I,R)
+right(I,R)
+southwest(Y,T)
+southwest(Y,E)"
+The object X and A are there. The object A is above and slightly to the left of the object X. D and B are both there with the object D is to the left of object B. The object B and F are there. The object B is below and slightly to the right of the object F. F is to the left of K and is on the same horizontal plane. F is above Y and to the right of Y. E is to the left of B and below B at approximately a 45 degree angle.	What is the relation of the agent E to the agent K?	lower-left	"
+upper-left(A,X)
+left(D,B)
+lower-right(B,F)
+left(F,K)
+upper-right(F,Y)
+left(E,B)
+below(E,B)"
+E is slightly off center to the top left and B is slightly off center to the bottom right. H is positioned above U. F and P are parallel, and F is on top of P. K is diagonally to the upper left of H. U is at F's 6 o'clock. S is diagonally below U to the right at a 45 degree angle.	What is the relation of the agent H to the agent P?	above	"
+left(E,B)
+above(E,B)
+above(H,U)
+below(F,U)
+upper-left(K,H)
+upper-right(F,P)"
+N and A are in a vertical line with A below N. Object W is above object R and to the left of it, too. S is over D. The object labeled U is positioned to the right of the object labeled S. U is on the lower right of W.	What is the relation of the agent U to the agent D?	upper-right	"
+below(A,N)
+above(W,R)
+left(W,R)
+above(S,D)
+right(U,S)
+lower-right(U,W)"
+P is sitting at the top position to J. U and J are side by side with U on the top and J at the bottom. Q is over R. X is at a 45 degree angle to U, in the upper righthand corner. P is below L. P is diagonally below V to the left at a 45 degree angle.	What is the relation of the agent X to the agent U?	upper-right	"
+lower-left(V,P)
+lower-right(P,L)
+upper-right(X,U)
+above(Q,R)
+above(P,J)
+above(U,J)
+above(V,P)"
+S is positioned right to B. The object L is lower and slightly to the right of the object K. U is positioned above K and to the left. S is below W with a small gap between them. C is below and to the left of Y. L is to the bottom-right of W.	What is the relation of the agent S to the agent L?	left	"
+right(S,B)
+lower-right(L,K)
+upper-left(U,K)
+below(S,W)
+lower-left(C,Y)
+lower-right(L,W)"
+L and P are parallel, and L on the right of P. P is sitting in the left direction of V. The object B is positioned below and to the right of the object V. If A is the center of a clock face, N is located between 2 and 3. B is below U and to the right of U.	What is the relation of the agent L to the agent P?	left	"
+right(L,P)
+left(P,V)
+below(B,V)
+right(B,V)
+right(N,2)
+right(N,3)
+below(B,U)
+right(B,U)"
+S and Y are both there with the object S above the object Y. M and Y are parallel, and M on the right of Y. Y is to the bottom-right of U. E is on the right side to M. F is to the right of N.	What is the relation of the agent M to the agent U?	below	"
+above(S,Y)
+right(M,Y)
+lower-right(Y,U)
+right(E,M)
+right(F,N)
+below(X,Q)
+upper-right(R,Q)
+below(L,R)
+left(G,W)
+lower-right(W,X)"
+Z is placed at the lower right of Q. The object V is positioned above and to the right of the object I. L is placed in the right direction of G. Q and L are next to each other with L at the bottom Q on the top. If C is the center of a clock face, L is located between 4 and 5.	What is the relation of the agent Z to the agent Q?	lower-right	"
+left(G,L)
+right(V,I)
+right(Q,Z)
+right(V,I)
+right(Q,L)
+right(L,4)
+right(5,L)
+above(Q,L)
+above(V,I)
+above(L,Q)"
+Y is to the top-right of O. N is directly south west of R. M and H are in a horizontal line with M on the left. O and A are both there with the object A below the object O. O and V are both there with the object O above the object V. O is to the top right of M.	What is the relation of the agent O to the agent M?	upper-right	"
+above(Y,O)
+right(Y,O)
+below(N,R)
+left(N,R)
+left(M,H)
+below(A,O)
+below(V,O)
+above(O,M)
+right(O,M)"
+Y is below W and to the right of W. G is on the left side of and below U. K is to the top of P vertically. U and K are next to each other with K on the right and U on the left. I and G are parallel, and I is under G.	What is the relation of the agent U to the agent G?	upper-right	"
+above(W,Y)
+left(W,Y)
+above(U,G)
+right(U,G)
+below(P,K)
+right(U,K)
+below(I,G)"
+H is over there and T is at the bottom of it. If Y is the center of a clock face, I is located between 2 and 3. G is on the top side to L. T is over there and E is at the bottom of it. H is there and G is at the 10 position of a clock face.	What is the relation of the agent E to the agent H?	below	"
+below(T,H)
+above(G,L)
+below(E,T)"
+G is on the right side to J. A is upper right to B. B is to the left of N horizontally. A is to the top-right of G. The object labeled Z is positioned to the left of the object labeled W.	What is the relation of the agent A to the agent B?	upper-right	"
+right(G,J)
+upper-right(A,B)
+left(B,N)
+upper-right(A,G)
+left(Z,W)"
+Q is directly below R. Object U is below object P and to the left of it, too. P is on the left and R is on the right. X is positioned down and to the left of J. C presents over Q.	What is the relation of the agent C to the agent Q?	above	"
+below(Q,R)
+below(U,P)
+left(U,P)
+left(P,R)
+right(R,P)
+below(X,J)
+left(X,J)
+above(C,Q)"
+C is positioned above and to the left of J. R is at a 45 degree angle to A, in the upper lefthand corner. O presents left to U. O is upper right to I. Object Z is above object A and to the left of it, too. Z is north west of I.	What is the relation of the agent O to the agent A?	upper-right	"
+above(C,J)
+above(R,A)
+left(O,U)
+above(O,I)
+right(O,I)
+above(Z,A)
+left(Z,A)
+above(Z,I)
+left(Z,I)"
+The object labeled A is positioned to the right of the object labeled L. X is at the bottom of P and is on the same vertical plane. Y is positioned above J and to the left. J is on the same horizontal plane directly left to L. N is positioned above Z and to the right. P is diagonally above J to the right at a 45 degree.	What is the relation of the agent X to the agent J?	right	"
+right(A,L)
+below(X,P)
+upper-left(Y,J)
+left(J,L)
+upper-right(N,Z)
+upper-right(P,J)"
+I presents left to T. B is sitting at the lower left position to U. Y and I are both there with the object Y is to the left of object I. O is placed at the bottom of C. The object Y is positioned below and to the right of the object U. U is over there with V below.	What is the relation of the agent Y to the agent T?	left	"
+left(I,T)
+lower-left(B,U)
+left(Y,I)
+below(O,C)
+lower-right(Y,U)
+below(V,U)"
+G is above V at 2 o'clock. P is over there and M is directly above it. The object labeled F is positioned to the right of the object labeled I. L is positioned below V and to the right. I and G are parallel, and I on the left of G.	What is the relation of the agent G to the agent F?	overlap	"
+above(G,V)
+above(M,P)
+right(F,I)
+below(L,V)
+right(L,V)
+left(I,G)"
+O is there and I is at the 5 position of a clock face. K presents lower left to L. B is on the left side to K. F is south west of B. B presents upper right to H.	What is the relation of the agent K to the agent B?	right	"
+left(B,K)
+right(K,L)
+right(B,H)
+below(O,I)
+lower-left(F,B)
+left(B,H)
+right(B,K)
+right(K,L)"
+W presents over L. V is on the lower left of B. B and W are parallel, and B is to the right of W. J is to the left of W and below W at approximately a 45 degree angle. C and L are both there with the object C is to the left of object L. The object N is positioned directly below the object H.	What is the relation of the agent B to the agent V?	upper-right	"
+lower-left(V,B)
+lower-right(B,W)
+lower-left(J,W)
+lower-left(V,B)
+lower-left(C,L)
+lower-left(N,H)"
+M presents right to Q. G is at W's 12 o'clock. G is positioned in the lower right corner of Q. M and H are vertical and M is above H. X and I are side by side with X to the left and I to the right. M and P are horizontal and M is to the left of P.	What is the relation of the agent Q to the agent G?	upper-left	"
+right(M,Q)
+above(G,W)
+lower-right(G,Q)
+above(M,H)
+left(X,I)
+left(M,P)"
+X is positioned right to N. I and M are parallel, and M is below I. K is on the lower right of Q. N is below P and to the left of P. M is placed at the lower right of P.	What is the relation of the agent I to the agent P?	right	"
+right(X,N)
+same-horizontal(I,M)
+below(M,I)
+right(K,Q)
+below(K,Q)
+below(N,P)
+left(N,P)
+right(M,P)
+below(M,P)"
+M is on the same vertical plane directly above F. N is above M at 10 o'clock. N is above Q at 10 o'clock. Y is diagonally to the upper right of F. L is below and to the left of W.	What is the relation of the agent Q to the agent F?	above	"
+above(M,F)
+above(N,M)
+above(N,Q)
+upper-right(Y,F)
+lower-left(L,W)"
+Z is to the top right of H. The object I is positioned below and to the right of the object X. J and X are both there with the object J is to the left of object X. X is directly north east of H. Object U is above object A and to the right of it, too. Z is over G.	What is the relation of the agent G to the agent X?	below	"
+right(Z,H)
+below(I,X)
+left(J,X)
+right(X,H)
+above(U,A)
+above(Z,G)"
+The object M and O are there. The object O is above and slightly to the left of the object M. W is positioned above S. W and Z are parallel, and W is to the left of Z. W is under J. S is placed in the right direction of U.	What is the relation of the agent W to the agent S?	above	"
+above(O,M)
+above(W,S)
+left(W,Z)
+below(W,J)
+right(S,U)"
+D is over there and T is at the bottom of it. R is above F and to the right of F. S is at W’s 9 o'clock. S and V are in a horizontal line with V on the right. B is sitting at the lower left position to V. D is on the left side to V.	What is the relation of the agent V to the agent D?	right	"
+right(R,F)
+left(S,W)
+right(V,S)
+left(S,V)
+below(B,V)
+left(B,V)
+left(D,V)"
+G is to the right and above L at an angle of about 45 degrees. W is directly above O. V is diagonally above Z to the left at a 45 degree angle. G is sitting at the lower position to Z. X is at a 45 degree angle to Z, in the lower lefthand corner. C is positioned in the lower left corner of X.	What is the relation of the agent X to the agent L?	below	"
+lower-right(G,Z)
+above(W,O)
+upper-left(V,Z)
+below(G,Z)
+lower-left(X,Z)
+lower-left(C,X)"
+The object R is upper and slightly to the left of the object F. B is at the 3 o'clock position relative to Y. W and Y are horizontal and W is to the left of Y. Y is directly south west of R. L is placed at the bottom of E.	What is the relation of the agent F to the agent B?	right	"
+upper-left(R,F)
+right(B,Y)
+left(W,Y)
+lower-left(Y,R)
+below(L,E)"
+X is positioned in the lower right corner of A. N and S are horizontal and N is to the right of S. The object X and P are there. The object P is above and slightly to the left of the object X. K and X are parallel, and K is on top of X. If P is the center of a clock face, D is located between 7 and 8.	What is the relation of the agent D to the agent X?	left	"
+above(A,X)
+left(A,X)
+right(N,S)
+above(P,X)
+left(P,X)
+above(K,X)"
+Y is above R and to the right of R. D is above and to the right of A. N and Y are parallel, and N is over Y. A is on top of N. G is positioned above L and to the right.	What is the relation of the agent A to the agent N?	above	"
+left(G,Q)
+lower-left(Q,X)
+upper-right(V,T)
+lower-right(T,X)
+left(G,U)
+above(Y,R)
+above(D,A)
+above(N,Y)
+above(A,N)
+above(G,L)
+right(R,Y)
+right(A,D)
+right(Y,N)
+right(N,A)
+right(L,G)"
+W is positioned in the front right corner of Q. P is to the left of D. T is sitting at the 3:00 position to D. J is directly north west of T. T is at the lower side of X. Object X is below object E and to the right of it, too.	What is the relation of the agent T to the agent D?	right	"
+right(W,Q)
+above(W,Q)
+left(P,D)
+right(T,D)
+above(J,T)
+left(J,T)
+below(T,X)
+below(X,E)
+right(X,E)"
+A is on the same horizontal plane directly left to N. H is on the same horizontal plane directly right to Z. N is placed at the upper right of J. F and D are next to each other with F on the top and D at the bottom. Z is slightly off center to the top left and N is slightly off center to the bottom right. G is over there and Z is directly below it.	What is the relation of the agent N to the agent A?	right	"
+left(A,N)
+right(H,Z)
+upper-right(N,J)
+above(F,D)
+above(G,Z)"
+The object A is positioned below and to the left of the object I. Y is at a 45 degree angle to V, in the lower righthand corner. T is to the right and above Y at an angle of about 45 degrees. The object A and Q are there. The object Q is above and slightly to the left of the object A. U is positioned above K and to the right. Q presents below V.	What is the relation of the agent V to the agent A?	upper-left	"
+left(A,I)
+lower-right(Y,V)
+upper-right(T,Y)
+above(Q,A)
+upper-right(U,K)"
+O is sitting in the left direction of L. F and S are parallel, and F is over S. O is to the right of G. K is diagonally to the bottom left of M. L is on the left and M is on the right. O is placed at the upper left of A.	What is the relation of the agent M to the agent O?	right	"
+left(O,L)
+above(F,S)
+right(O,G)
+lower-left(K,M)
+left(L,M)
+upper-left(O,A)"
+L is over I. O is placed at the upper right of H. G is to the right of W and is on the same horizontal plane. If H is the center of a clock face, W is located between 10 and 11. F and X are vertical and F is below X. H is sitting at the 9:00 position of X.	What is the relation of the agent W to the agent X?	upper-left	"
+above(L,I)
+right(O,H)
+above(O,H)
+right(G,W)
+left(W,H)
+below(F,X)
+left(H,X)"
+T is above I. H is positioned above and to the left of M. P is there and U is at the 10 position of a clock face. Object L is above object G and to the right of it, too. L is north east of I. M is diagonally below G to the left at a 45 degree angle.	What is the relation of the agent G to the agent M?	upper-right	"
+above(T,I)
+above(H,M)
+left(H,M)
+above(L,G)
+right(L,G)
+upper-right(L,I)
+lower-left(M,G)"
+A is over there and B is on the left. B is on the right and F is on the left. Z is below Y and to the left of Y. X and V are horizontal and X is to the right of V. A and Y are parallel, and A is over Y.	What is the relation of the agent B to the agent Y?	upper-left	"
+left(F,B)
+right(B,A)
+right(A,Y)
+left(Y,Z)
+right(X,V)
+above(A,Y)"
+P and R are parallel, and P on the right of R. R is at the bottom of C. C is above L and to the right of L. B is at the lower side of L. M is placed at the upper left of K.	What is the relation of the agent L to the agent R?	left	"
+right(P,R)
+above(C,R)
+left(C,L)
+left(L,B)
+lower-left(B,L)
+upper-left(M,K)"
+The object R is positioned directly below the object J. V is on the left side and above F. P and R are side by side with P to the right and R to the left. Z and T are horizontal and Z is to the left of T. J is above T and to the left of T.	What is the relation of the agent P to the agent T?	overlap	"
+left(R,J)
+right(R,P)
+above(V,F)
+left(V,F)
+right(P,R)
+left(R,P)
+left(Z,T)
+above(J,T)"
+J is at the bottom of Y and is on the same vertical plane. S is south east of J. J is over there and F is on the right of it. A is at the bottom of Y vertically. U is positioned above I and to the left.	What is the relation of the agent J to the agent Y?	below	"
+above(J,Y)
+lower-right(S,J)
+above(J,F)
+above(U,I)
+left(I,U)
+below(A,Y)
+right(F,J)"
+M is to the right and above G at an angle of about 45 degrees. Y and M are next to each other with Y on the left and M on the right. O is at the 6 o'clock position relative to X. M is placed on the top of D. M is on the left and F is on the right. I is positioned below F and to the left.	What is the relation of the agent D to the agent M?	below	"
+left(Y,M)
+right(M,G)
+above(M,G)
+below(O,X)
+above(M,D)
+left(M,F)
+below(I,F)"
+T is positioned up and to the right of I. N is to the left of J horizontally. E is at the 6 o'clock position relative to D. G is diagonally to the upper left of N. G is on the same vertical plane directly below T. V is below and to the right of T.	What is the relation of the agent T to the agent I?	upper-right	"
+above(T,I)
+right(T,I)
+left(N,J)
+below(E,D)
+upper-left(G,N)
+below(G,T)
+below(V,T)
+right(V,T)"
+Y is placed at the lower right of W. Y is sitting at the lower position to N. P and O are parallel, and P on the right of O. F is at N’s 9 o'clock. U is sitting at the lower right position to N.	What is the relation of the agent F to the agent N?	left	"
+lower-right(Y,W)
+above(N,Y)
+right(P,O)
+left(F,N)
+lower-right(U,N)"
+J is on the right side and below L. W is above L and to the left of L. W is sitting at the lower right position to T. I is over J. P is above and to the right of V.	What is the relation of the agent W to the agent J?	upper-left	"
+right(J,L)
+below(J,L)
+above(W,L)
+left(W,L)
+right(W,T)
+below(W,T)
+above(I,J)
+above(P,V)
+right(P,V)"
+The object X is positioned below and to the right of the object L. L is diagonally above Z to the left at a 45 degree angle. M is positioned up and to the right of E. B is placed at the lower right of O. O is on the left and F is on the right. L and O are vertical and L is above O.	What is the relation of the agent B to the agent L?	lower-right	"
+right(X,L)
+below(X,L)
+left(L,Z)
+above(L,Z)
+right(M,E)
+above(M,E)
+right(B,O)
+below(B,O)
+left(O,F)
+right(O,F)
+above(L,O)
+below(O,L)"
+W and A are side by side with A at the bottom and W on the top. C is to the left of W and is on the same horizontal plane. G is at A's 12 o'clock. V is over there and K is directly below it. D is at a 45 degree angle to H, in the upper righthand corner. G is positioned down and to the left of D.	What is the relation of the agent A to the agent C?	lower-right	"
+below(A,W)
+right(W,A)
+left(A,W)
+left(C,W)
+above(G,A)
+above(V,K)
+upper-right(D,H)
+lower-left(G,D)"
+W is positioned below B and to the left. S is over there and R is on the right. W is over there and E is directly below it. P is there and G is at the 2 position of a clock face. G is over there and A is directly above it. The object E and P are there. The object E is below and slightly to the right of the object P.	What is the relation of the agent P to the agent A?	lower-left	"
+above(W,B)
+lower-left(W,B)
+lower-left(S,R)
+upper-left(E,W)
+upper-right(P,G)
+upper-left(A,G)
+lower-right(E,P)
+lower-left(P,E)"
+V is at Q's 12 o'clock. I presents upper right to Z. Q is above and to the right of Z. If S is the center of a clock face, Z is located between 10 and 11. B is sitting in the left direction of T.	What is the relation of the agent V to the agent Q?	above	"
+above(V,Q)
+upper-right(I,Z)
+above(Q,Z)
+right(Q,Z)
+left(B,T)"
+A is on top of Q. Z is positioned in the lower right corner of W. Z is positioned above Y and to the left. H is at a 45 degree angle to R, in the lower lefthand corner. W presents right to H.	What is the relation of the agent Z to the agent W?	lower-right	"
+above(A,Q)
+lower-right(Z,W)
+above(Z,Y)
+left(Y,Z)
+lower-left(H,R)
+right(W,H)"
+L is diagonally above X to the right at a 45 degree. M is below and to the right of U. O is on the lower right of Z. U presents lower left to Z. U is under H. M is to the bottom right of J.	What is the relation of the agent Z to the agent M?	above	"
+lower-right(M,J)
+lower-right(O,Z)
+lower-left(U,Z)
+below(U,H)
+lower-right(M,U)
+upper-right(L,X)
+I made a mistake. The correct answer is:
+Facts:
+lower-right(M,J)
+lower-right(O,Z)
+lower-left(U,Z)
+below(U,H)
+lower-right(M,U)
+upper-right(L,X)
+I made another mistake. The correct answer is:
+Facts:
+lower-right(M,J)
+lower-right(O,Z)
+lower-left(U,Z)
+below(U,H)
+lower-right(M,U)
+upper-right(L,X)
+I made another mistake. The correct answer is"
+V is sitting in the right direction of X. G is below and to the left of D. D is at L's 12 o'clock. G is below V. F is positioned in the lower right corner of Q. A is over there with G above.	What is the relation of the agent V to the agent A?	above	"
+right(V,X)
+below(G,D)
+left(G,D)
+above(D,L)
+below(G,V)
+below(F,Q)
+right(F,Q)
+below(A,G)"
+G is at a 45 degree angle to N, in the lower righthand corner. X is positioned in the lower left corner of C. T is diagonally right and above J. T is over there and O is on the left. J is on the top of X and is on the same vertical plane. X is on the upper right of A.	What is the relation of the agent J to the agent C?	left	"
+lower-right(G,N)
+lower-left(X,C)
+upper-right(T,J)
+left(O,T)
+above(J,X)
+upper-right(X,A)"
+B is directly south east of F. The object I is upper and slightly to the left of the object Z. B is positioned up and to the right of R. N is upper left of L. I is to the bottom-left of F.	What is the relation of the agent B to the agent F?	lower-right	"
+lower-right(B,F)
+upper-left(I,Z)
+upper-right(B,R)
+upper-left(N,L)
+lower-left(I,F)"
+R is positioned in the lower left corner of U. Y and U are parallel, and Y is to the left of U. G is below and to the left of S. If Y is the center of a clock face, A is located between 10 and 11. V is directly south west of Y.	What is the relation of the agent U to the agent V?	upper-right	"
+lower-left(R,U)
+left(Y,U)
+lower-left(G,S)
+lower-left(V,Y)
+lower-right(S,U)"
+G is on the left side to V. K is on the right side and top of B. Z is on the left side to S. V and K are parallel, and V on the left of K. K is positioned down and to the left of C.	What is the relation of the agent B to the agent V?	below	"
+left(G,V)
+upper-right(K,B)
+left(Z,S)
+left(V,K)
+lower-left(K,C)"
+The objects P and Z are over there. The object P is above and slightly to the right of the object Z. The objects G and M are over there. The object G is above and slightly to the right of the object M. Z and R are vertical and Z is below R. K and P are vertical and K is below P. U is at the bottom of R. The object X is positioned above and to the right of the object P.	What is the relation of the agent K to the agent R?	lower-right	"
+above(P,Z)
+right(P,Z)
+above(G,M)
+right(G,M)
+below(Z,R)
+below(K,P)
+below(U,R)
+above(X,P)
+right(X,P)"
+H is at a 45 degree angle to V, in the lower lefthand corner. Object W is above object Y and to the right of it, too. O is diagonally above H to the left at a 45 degree angle. C is positioned up and to the right of H. Q is sitting in the right direction of M. Object Y is below object O and to the left of it, too.	What is the relation of the agent H to the agent V?	lower-left	"
+lower-left(H,V)
+above(W,Y)
+right(W,Y)
+upper-left(O,H)
+above(C,H)
+right(C,H)
+right(Q,M)
+below(Y,O)
+left(Y,O)"
+Q is to the top right of K. I is to the upper left of V. Object Q is below object J and to the left of it, too. Q presents lower right to S. H is at J’s 9 o'clock. H is to the right of C horizontally.	What is the relation of the agent Q to the agent C?	lower-right	"
+lower-right(Q,S)
+left(Q,J)
+below(Q,J)
+left(H,J)
+right(H,C)
+upper-right(Q,K)
+upper-left(I,V)"
+R is above B. The object labeled X is positioned to the right of the object labeled Z. Z and R are in a vertical line with Z on top. The object Q is positioned below and to the right of the object X. J is above W and to the right of W.	What is the relation of the agent B to the agent Z?	below	"
+above(R,B)
+right(X,Z)
+above(Z,R)
+right(Q,X)
+below(Q,X)
+right(J,W)
+above(J,W)"
+The object Q is positioned below and to the left of the object A. Y is over there and V is on the left. If A is the center of a clock face, R is located between 10 and 11. G is to the right of A horizontally. R is below F and to the left of F. L is sitting in the right direction of A.	What is the relation of the agent A to the agent R?	lower-right	"
+left(Q,A)
+right(G,A)
+below(R,F)
+left(R,F)
+right(L,A)"
+A is above and to the right of O. O is sitting in the right direction of Z. A is there and I is at the 10 position of a clock face. C is at the 6 o'clock position relative to A. H and Y are in a horizontal line with H on the left. The objects A and W are over there. The object A is lower and slightly to the left of the object W.	What is the relation of the agent Z to the agent O?	left	"
+Facts:
+above(A,O)
+right(A,O)
+right(O,Z)
+below(C,A)
+left(H,Y)
+below(A,W)
+left(A,W)
+above(A,Z)
+right(A,W)
+lower-left(H,A)
+lower-right(Z,W)
+upper-left(O,A)
+upper-right(O,Z)"
+C is to the right of M and is on the same horizontal plane. N is positioned right to P. W is placed at the upper left of B. P is diagonally above R to the right at a 45 degree. P is at the 9 o'clock position relative to W.	What is the relation of the agent B to the agent N?	lower-right	"
+right(C,M)
+right(N,P)
+upper-left(W,B)
+upper-right(P,R)
+lower-left(P,W)"
+G is on the right side to M. W is positioned in the lower left corner of J. W is sitting at the lower right position to B. B is positioned in the lower right corner of G. N is at H's 3 o'clock. U is upper left of G.	What is the relation of the agent G to the agent B?	upper-left	"
+right(G,M)
+lower-left(W,J)
+lower-right(W,B)
+lower-right(B,G)
+right(N,H)
+upper-left(U,G)"
+L is to the upper left of V. M is on the same horizontal plane directly left to F. If H is the center of a clock face, S is located between 2 and 3. H is to the right of N horizontally. K and N are side by side with K on the top and N at the bottom. H is sitting in the left direction of V.	What is the relation of the agent K to the agent N?	above	"
+left(L,V)
+left(M,F)
+right(H,N)
+below(K,N)
+left(H,V)"
+G is sitting at the upper right position to F. P is at the lower side of G. A is sitting at the upper right position to D. B is there and F is at the 10 position of a clock face. E is diagonally above F to the left at a 45 degree angle. The objects C and F are over there. The object C is lower and slightly to the left of the object F.	What is the relation of the agent F to the agent C?	upper-right	"
+upper-right(G,F)
+lower-left(P,G)
+upper-right(A,D)
+upper-left(E,F)
+lower-left(C,F)"
+X and V are parallel, and X is on top of V. K is above B at 2 o'clock. M is below H and to the left of H. J is to the right of X and is on the same horizontal plane. V is sitting at the 6:00 position to Q. J is positioned up and to the right of H.	What is the relation of the agent J to the agent H?	upper-right	"
+right(J,X)
+above(X,V)
+below(M,H)
+left(M,H)
+right(J,H)
+right(V,Q)
+above(J,H)"
+X is on the same vertical plane directly above M. M is directly north east of B. R is on the same horizontal plane directly right to H. J and B are horizontal and J is to the right of B. Q is directly south east of B.	What is the relation of the agent J to the agent X?	lower-left	"
+above(X,M)
+right(M,B)
+right(B,Q)
+below(Q,B)
+right(R,H)
+right(J,B)
+lower-left(Q,B)"
+Y is to the right of K. M is below E and to the right of E. I is placed on the top of M. The object M is lower and slightly to the left of the object F. I is to the right of B with a small gap between them.	What is the relation of the agent B to the agent I?	left	"
+right(Y,K)
+below(M,E)
+right(M,E)
+above(I,M)
+lower-left(M,F)
+right(I,B)"
+X is at the 3 o'clock position relative to H. X is positioned in the lower left corner of R. S is to the left of H. V is on the right side and below Z. W is to the bottom right of X. The object H and C are there. The object C is above and slightly to the left of the object H.	What is the relation of the agent X to the agent S?	right	"
+right(H,X)
+upper-right(R,X)
+right(X,R)
+right(H,S)
+right(V,Z)
+left(Z,V)
+left(W,X)
+right(X,W)
+right(H,C)
+left(C,H)"
+A is directly south west of H. O is positioned below Z and to the left. O is to the left of H and is on the same horizontal plane. I is directly above C. The object Q is lower and slightly to the right of the object H. Q is directly south west of X.	What is the relation of the agent Q to the agent X?	lower-left	"
+below(A,H)
+left(A,H)
+below(O,Z)
+left(O,Z)
+left(O,H)
+above(I,C)
+lower-left(Q,H)
+below(Q,X)
+left(Q,X)"
+E is positioned right to S. E is sitting at the top position to F. Object O is below object E and to the right of it, too. X is to the upper left of Q. S is diagonally to the upper right of P. Object V is above object E and to the right of it, too.	What is the relation of the agent S to the agent E?	left	"
+right(E,S)
+above(E,F)
+right(O,E)
+upper-left(X,Q)
+upper-right(S,P)
+above(V,E)"
+Y presents over H. Q is to the right and above E at an angle of about 45 degrees. P is below Y at 7 o'clock. J is to the top of E vertically. Z is placed at the lower left of T. H is on the right and E is on the left.	What is the relation of the agent Y to the agent E?	upper-right	"
+above(Y,H)
+upper-right(Q,E)
+below(P,Y)
+upper-left(J,E)
+lower-left(Z,T)
+right(H,E)
+left(E,H)"
+G and M are side by side with M at the bottom and G on the top. A and D are horizontal and A is to the right of D. D and G are parallel, and D on the left of G. N and A are in a horizontal line with A on the right. B and H are parallel, and B is over H.	What is the relation of the agent G to the agent D?	right	"
+left(G,M)
+right(G,M)
+above(G,M)
+below(M,G)
+lower-left(M,G)
+lower-right(G,M)
+upper-left(G,M)
+upper-right(M,G)
+right(A,D)
+left(D,G)
+left(N,A)
+above(B,H)"
+R is positioned above and to the left of S. X is to the left of F with a small gap between them. Q is to the bottom right of F. G and Z are parallel, and G on the right of Z. X is at the bottom of S and is on the same vertical plane. C is to the left of X and below X at approximately a 45 degree angle.	What is the relation of the agent F to the agent X?	right	"
+above(R,S)
+left(R,S)
+left(X,F)
+below(Q,F)
+right(Q,F)
+right(G,Z)
+below(X,S)
+left(C,X)
+below(C,X)"
+F is diagonally to the bottom left of K. H is at the lower side of D. O is positioned above Q and to the right. D is above O with a small gap between them. R and O are both there with the object R is to the left of object O. M presents lower left to H.	What is the relation of the agent O to the agent H?	overlap	"
+below(F,K)
+left(F,K)
+below(H,D)
+above(O,Q)
+right(O,Q)
+above(D,O)
+left(R,O)
+lower-left(M,H)"
+V is at the 9 o'clock position relative to T. O is on the same vertical plane directly above R. G and K are parallel, and G is to the left of K. T is diagonally above J to the left at a 45 degree angle. O is to the right of J horizontally.	What is the relation of the agent O to the agent J?	right	"
+left(V,T)
+above(O,R)
+left(G,K)
+upper-left(T,J)
+right(O,J)
+above(O,R)
+upper-left(T,J)
+right(O,J)
+left(G,K)"
+O is positioned left to D. T is on the lower left of S. F is to the bottom-left of S. Q is positioned above B. B is over there with S above. X is to the upper left of Q.	What is the relation of the agent Q to the agent B?	above	"
+left(O,D)
+lower-left(T,S)
+lower-left(F,S)
+above(Q,B)
+right(B,Q)
+upper-left(X,Q)"
+T is sitting at the upper right position to I. R is diagonally to the bottom left of I. M is above X at 10 o'clock. X and T are vertical and X is above T. V is on the top side to E.	What is the relation of the agent M to the agent X?	upper-left	"
+right(T,I)
+upper-right(T,I)
+below(R,I)
+left(R,I)
+above(M,X)
+above(X,T)
+left(X,T)
+right(V,E)
+above(V,E)"
+V is positioned above and to the left of A. M is on top of A. P is to the right and above S at an angle of about 45 degrees. L is to the upper left of R. Y is placed in the right direction of R. M is diagonally above Y to the left at a 45 degree angle.	What is the relation of the agent Y to the agent L?	lower-right	"
+above(V,A)
+left(V,A)
+above(M,A)
+above(P,S)
+right(P,S)
+left(L,R)
+above(L,R)
+right(Y,R)
+above(M,Y)
+left(M,Y)"
+The objects J and U are over there. The object J is above and slightly to the right of the object U. G is positioned up and to the right of P. P is on the same vertical plane directly below T. F and Q are side by side with F to the left and Q to the right. P is below and to the right of F. The object Q is lower and slightly to the left of the object A.	What is the relation of the agent Q to the agent P?	above	"
+above(J,U)
+right(J,U)
+above(G,P)
+right(G,P)
+below(P,T)
+left(F,Q)
+below(P,F)
+right(P,F)
+below(Q,A)
+left(Q,A)"
+W is diagonally below U to the right at a 45 degree angle. Z is on the left side to K. X is positioned in the front right corner of K. W is above X. F is on the left side to J.	What is the relation of the agent U to the agent W?	upper-left	"
+lower-right(U,W)
+left(Z,K)
+right(X,K)
+above(W,X)
+left(F,J)"
+The object R is lower and slightly to the left of the object D. X is at I's 12 o'clock. C and W are side by side with W at the bottom and C on the top. Q is placed at the upper left of C. Object I is above object W and to the left of it, too.	What is the relation of the agent W to the agent C?	below	"
+lower-left(R,D)
+above(X,I)
+above(C,W)
+below(W,C)
+upper-left(Q,C)
+above(I,W)
+left(I,W)"
+G is directly north east of E. F is sitting at the 6:00 position to I. N is to the right and above I at an angle of about 45 degrees. A and Z are side by side with A to the right and Z to the left. I is positioned up and to the right of A.	What is the relation of the agent N to the agent A?	upper-right	"
+upper-right(G,E)
+below(F,I)
+upper-right(N,I)
+right(A,Z)
+left(Z,A)
+upper-right(I,A)"
+W is at U's 6 o'clock. E is on the same horizontal plane directly right to U. F is on the right and W is on the left. T is at a 45 degree angle to H, in the upper lefthand corner. L is positioned above and to the left of U.	What is the relation of the agent F to the agent W?	right	"
+below(W,U)
+right(E,U)
+right(F,W)
+left(W,F)
+above(T,H)
+above(L,U)"
+J is on the left and V is on the right. The object N is positioned below and to the right of the object P. N and V are vertical and N is above V. U and M are side by side with U to the right and M to the left. E and N are both there with the object N below the object E.	What is the relation of the agent N to the agent P?	lower-right	"
+left(J,V)
+below(N,P)
+right(N,P)
+above(N,V)
+right(U,M)
+left(M,U)
+below(N,E)"
+T is positioned below S and to the left. F presents below L. D is below and to the right of O. S is diagonally right and above W. Object Q is below object D and to the right of it, too. T is to the right and above O at an angle of about 45 degrees.	What is the relation of the agent O to the agent D?	upper-left	"
+above(S,T)
+left(T,S)
+above(L,F)
+above(O,D)
+right(D,O)
+below(S,W)
+left(W,S)
+above(D,Q)
+right(Q,D)
+below(T,O)
+left(O,T)"
+F is positioned down and to the left of N. Q is directly north east of Z. I is to the left of G and below G at approximately a 45 degree angle. Y is to the top-left of Q. Q is at N's 3 o'clock.	What is the relation of the agent F to the agent Y?	lower-left	"
+below(F,N)
+left(F,N)
+above(Q,Z)
+right(Q,Z)
+left(I,G)
+below(I,G)
+upper-left(Y,Q)
+right(Q,N)"
+X is directly below M. Q is lower left to N. M is to the top right of V. C is above and to the left of J. M is on the top of N and is on the same vertical plane. M is south west of S.	What is the relation of the agent Q to the agent N?	lower-left	"
+above(M,X)
+lower-left(Q,N)
+upper-right(M,V)
+upper-left(C,J)
+above(M,N)
+lower-left(M,S)"
+M presents right to K. If G is the center of a clock face, K is located between 2 and 3. K is to the right of N and is on the same horizontal plane. G presents lower right to C. T is diagonally left and below H.	What is the relation of the agent K to the agent G?	upper-right	"
+right(M,K)
+right(K,G)
+right(K,N)
+lower-right(G,C)
+lower-left(T,H)"
+B and L are side by side with B on the top and L at the bottom. L is sitting in the left direction of T. The object X is positioned below and to the right of the object O. P is on the same vertical plane directly above L. P is sitting at the 6:00 position to J. V and T are next to each other with V on the top and T at the bottom.	What is the relation of the agent B to the agent T?	upper-left	"
+lower-right(L,B)
+left(L,T)
+lower-right(X,O)
+right(O,X)
+above(P,L)
+lower-left(J,P)
+upper-left(V,T)
+lower-left(T,V)"
+W is positioned in the front right corner of Y. Y and N are both there with the object Y is to the right of object N. K is on the right and W is on the left. A is to the top-right of Y. The object P and V are there. The object P is below and slightly to the right of the object V. Y and T are both there with the object Y above the object T.	What is the relation of the agent K to the agent Y?	upper-right	"
+left(W,K)
+right(W,Y)
+right(Y,N)
+right(K,W)
+right(A,Y)
+above(A,Y)
+below(P,V)
+right(P,V)
+above(Y,T)"
+X is directly north east of B. F is over there and X is on the left of it. Z and E are in a vertical line with E below Z. J is south west of U. Object J is above object B and to the right of it, too.	What is the relation of the agent J to the agent F?	left	"
+upper-right(X,B)
+right(F,X)
+above(Z,E)
+lower-left(J,U)
+above(J,B)
+right(J,B)"
